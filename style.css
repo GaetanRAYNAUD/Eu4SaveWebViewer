@@ -45,7 +45,7 @@ body {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
-.sort-descending span.google-visualization-table-sortind, .sort-ascending span.google-visualization-table-sortind {
+th.tableHeader.google-visualization-table-type-number.sort-descending > span.google-visualization-table-sortind,  th.tableHeader.google-visualization-table-type-number.sort-ascending > span.google-visualization-table-sortind {
     border: 0;
 }
 

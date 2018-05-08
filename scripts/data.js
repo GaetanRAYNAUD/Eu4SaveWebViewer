@@ -1,6 +1,6 @@
 const data = 
 {
-  "title": "Kebab finally gets removed",
+  "title": "Kebab finally gets removed !",
   "nbSessions": 6,
   "sessions": [
     {

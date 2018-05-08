@@ -38,6 +38,8 @@ let generalOptions = {
 };
 
 window.onload = function () {
+    document.getElementById("title").innerText = data.title;
+
     google.charts.load('current', {'packages': ['timeline', 'corechart']});
     google.charts.setOnLoadCallback(addTimeLine);
     google.charts.setOnLoadCallback(addTotalDev);

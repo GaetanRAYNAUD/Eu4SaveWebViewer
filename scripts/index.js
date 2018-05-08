@@ -11,6 +11,8 @@ let addCoutries = function () {
     let country = document.getElementById("country");
     let currCountry;
 
+    document.getElementById("title").innerText = data.title;
+
     for(const [i] of data.players.entries()) {
         countries.appendChild(country.cloneNode(true));
 
