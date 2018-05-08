@@ -1,5 +1,6 @@
 const data = 
 {
+  "title": "Kebab finally gets removed",
   "nbSessions": 6,
   "sessions": [
     {
@@ -72,7 +73,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 7,
+          "manpowerRank": 17,
+          "forceLimitRank": 17,
+          "nbProvRank": 17,
+          "lossesRank": 28,
+          "loanRank": 37,
+          "professionalismRank": 29,
+          "innovativenessRank": 11
         },
         {
           "tag": "ORI",
@@ -108,7 +118,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 5,
+          "manpowerRank": 11,
+          "forceLimitRank": 8,
+          "nbProvRank": 8,
+          "lossesRank": 25,
+          "loanRank": 37,
+          "professionalismRank": 37,
+          "innovativenessRank": 15
         },
         {
           "tag": "ORI",
@@ -144,7 +163,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 2,
+          "manpowerRank": 3,
+          "forceLimitRank": 4,
+          "nbProvRank": 13,
+          "lossesRank": 11,
+          "loanRank": 4,
+          "professionalismRank": 31,
+          "innovativenessRank": 17
         },
         {
           "tag": "ORI",
@@ -180,7 +208,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 4,
+          "manpowerRank": 4,
+          "forceLimitRank": 4,
+          "nbProvRank": 17,
+          "lossesRank": 15,
+          "loanRank": 37,
+          "professionalismRank": 16,
+          "innovativenessRank": 17
         },
         {
           "tag": "ORI",
@@ -216,7 +253,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 3,
+          "manpowerRank": 3,
+          "forceLimitRank": 4,
+          "nbProvRank": 14,
+          "lossesRank": 4,
+          "loanRank": 36,
+          "professionalismRank": 7,
+          "innovativenessRank": 18
         },
         {
           "tag": "ORI",
@@ -252,7 +298,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 3,
+          "manpowerRank": 3,
+          "forceLimitRank": 4,
+          "nbProvRank": 9,
+          "lossesRank": 3,
+          "loanRank": 32,
+          "professionalismRank": 12,
+          "innovativenessRank": 19
         }
       ]
     },
@@ -284,7 +339,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 2,
+          "manpowerRank": 2,
+          "forceLimitRank": 1,
+          "nbProvRank": 3,
+          "lossesRank": 8,
+          "loanRank": 36,
+          "professionalismRank": 7,
+          "innovativenessRank": 1
         },
         {
           "tag": "FRA",
@@ -320,7 +384,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 1,
+          "manpowerRank": 1,
+          "forceLimitRank": 1,
+          "nbProvRank": 7,
+          "lossesRank": 2,
+          "loanRank": 6,
+          "professionalismRank": 8,
+          "innovativenessRank": 2
         },
         {
           "tag": "FRA",
@@ -356,7 +429,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 1,
+          "manpowerRank": 1,
+          "forceLimitRank": 1,
+          "nbProvRank": 5,
+          "lossesRank": 2,
+          "loanRank": 37,
+          "professionalismRank": 11,
+          "innovativenessRank": 3
         },
         {
           "tag": "FRA",
@@ -392,7 +474,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 1,
+          "manpowerRank": 1,
+          "forceLimitRank": 1,
+          "nbProvRank": 5,
+          "lossesRank": 1,
+          "loanRank": 36,
+          "professionalismRank": 9,
+          "innovativenessRank": 4
         },
         {
           "tag": "FRA",
@@ -428,7 +519,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 4,
+          "manpowerRank": 2,
+          "forceLimitRank": 1,
+          "nbProvRank": 5,
+          "lossesRank": 1,
+          "loanRank": 35,
+          "professionalismRank": 2,
+          "innovativenessRank": 4
         },
         {
           "tag": "FRA",
@@ -464,7 +564,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 1,
+          "incomeRank": 4,
+          "manpowerRank": 2,
+          "forceLimitRank": 2,
+          "nbProvRank": 8,
+          "lossesRank": 2,
+          "loanRank": 31,
+          "professionalismRank": 4,
+          "innovativenessRank": 4
         }
       ]
     },
@@ -496,7 +605,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 4,
+          "manpowerRank": 4,
+          "forceLimitRank": 6,
+          "nbProvRank": 8,
+          "lossesRank": 13,
+          "loanRank": 35,
+          "professionalismRank": 1,
+          "innovativenessRank": 6
         },
         {
           "tag": "CAS",
@@ -532,7 +650,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 3,
+          "manpowerRank": 3,
+          "forceLimitRank": 4,
+          "nbProvRank": 6,
+          "lossesRank": 27,
+          "loanRank": 36,
+          "professionalismRank": 2,
+          "innovativenessRank": 9
         },
         {
           "tag": "CAS",
@@ -568,7 +695,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 3,
+          "manpowerRank": 5,
+          "forceLimitRank": 6,
+          "nbProvRank": 19,
+          "lossesRank": 22,
+          "loanRank": 36,
+          "professionalismRank": 2,
+          "innovativenessRank": 13
         },
         {
           "tag": "SPA",
@@ -604,7 +740,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 2,
+          "manpowerRank": 5,
+          "forceLimitRank": 3,
+          "nbProvRank": 7,
+          "lossesRank": 7,
+          "loanRank": 6,
+          "professionalismRank": 6,
+          "innovativenessRank": 12
         },
         {
           "tag": "SPA",
@@ -640,7 +785,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 1,
+          "manpowerRank": 5,
+          "forceLimitRank": 3,
+          "nbProvRank": 8,
+          "lossesRank": 8,
+          "loanRank": 34,
+          "professionalismRank": 10,
+          "innovativenessRank": 12
         },
         {
           "tag": "SPA",
@@ -676,7 +830,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 2,
+          "manpowerRank": 4,
+          "forceLimitRank": 3,
+          "nbProvRank": 6,
+          "lossesRank": 5,
+          "loanRank": 30,
+          "professionalismRank": 13,
+          "innovativenessRank": 13
         }
       ]
     },
@@ -708,7 +871,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 22,
+          "manpowerRank": 7,
+          "forceLimitRank": 14,
+          "nbProvRank": 12,
+          "lossesRank": 5,
+          "loanRank": 34,
+          "professionalismRank": 37,
+          "innovativenessRank": 21
         },
         {
           "tag": "CND",
@@ -744,7 +916,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 23,
+          "manpowerRank": 24,
+          "forceLimitRank": 24,
+          "nbProvRank": 13,
+          "lossesRank": 11,
+          "loanRank": 35,
+          "professionalismRank": 36,
+          "innovativenessRank": 32
         },
         {
           "tag": "CND",
@@ -780,7 +961,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 20,
+          "manpowerRank": 16,
+          "forceLimitRank": 19,
+          "nbProvRank": 18,
+          "lossesRank": 13,
+          "loanRank": 35,
+          "professionalismRank": 35,
+          "innovativenessRank": 20
         },
         {
           "tag": "CND",
@@ -816,7 +1006,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 10,
+          "manpowerRank": 14,
+          "forceLimitRank": 16,
+          "nbProvRank": 15,
+          "lossesRank": 12,
+          "loanRank": 2,
+          "professionalismRank": 37,
+          "innovativenessRank": 31
         },
         {
           "tag": "CND",
@@ -852,7 +1051,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 6,
+          "manpowerRank": 9,
+          "forceLimitRank": 13,
+          "nbProvRank": 11,
+          "lossesRank": 13,
+          "loanRank": 33,
+          "professionalismRank": 36,
+          "innovativenessRank": 27
         },
         {
           "tag": "RUM",
@@ -888,7 +1096,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 10,
+          "manpowerRank": 7,
+          "forceLimitRank": 7,
+          "nbProvRank": 15,
+          "lossesRank": 6,
+          "loanRank": 29,
+          "professionalismRank": 29,
+          "innovativenessRank": 26
         }
       ]
     },
@@ -920,7 +1137,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 32,
+          "manpowerRank": 20,
+          "forceLimitRank": 23,
+          "nbProvRank": 16,
+          "lossesRank": 23,
+          "loanRank": 33,
+          "professionalismRank": 16,
+          "innovativenessRank": 19
         },
         {
           "tag": "KOJ",
@@ -956,7 +1182,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 32,
+          "manpowerRank": 26,
+          "forceLimitRank": 29,
+          "nbProvRank": 20,
+          "lossesRank": 32,
+          "loanRank": 34,
+          "professionalismRank": 22,
+          "innovativenessRank": 16
         },
         {
           "tag": "KOJ",
@@ -992,7 +1227,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 18,
+          "manpowerRank": 17,
+          "forceLimitRank": 16,
+          "nbProvRank": 10,
+          "lossesRank": 31,
+          "loanRank": 34,
+          "professionalismRank": 27,
+          "innovativenessRank": 14
         },
         {
           "tag": "KOJ",
@@ -1028,7 +1272,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 19,
+          "manpowerRank": 15,
+          "forceLimitRank": 18,
+          "nbProvRank": 8,
+          "lossesRank": 24,
+          "loanRank": 35,
+          "professionalismRank": 25,
+          "innovativenessRank": 14
         },
         {
           "tag": "KOJ",
@@ -1064,7 +1317,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 22,
+          "manpowerRank": 15,
+          "forceLimitRank": 17,
+          "nbProvRank": 9,
+          "lossesRank": 17,
+          "loanRank": 3,
+          "professionalismRank": 33,
+          "innovativenessRank": 14
         },
         {
           "tag": "KOJ",
@@ -1100,7 +1362,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 16,
+          "manpowerRank": 6,
+          "forceLimitRank": 14,
+          "nbProvRank": 12,
+          "lossesRank": 16,
+          "loanRank": 28,
+          "professionalismRank": 27,
+          "innovativenessRank": 16
         }
       ]
     },
@@ -1132,7 +1403,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 5,
+          "manpowerRank": 1,
+          "forceLimitRank": 13,
+          "nbProvRank": 26,
+          "lossesRank": 2,
+          "loanRank": 32,
+          "professionalismRank": 11,
+          "innovativenessRank": 17
         },
         {
           "tag": "HAB",
@@ -1168,7 +1448,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 6,
+          "manpowerRank": 2,
+          "forceLimitRank": 17,
+          "nbProvRank": 34,
+          "lossesRank": 1,
+          "loanRank": 8,
+          "professionalismRank": 21,
+          "innovativenessRank": 14
         },
         {
           "tag": "HAB",
@@ -1204,7 +1493,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 8,
+          "manpowerRank": 6,
+          "forceLimitRank": 13,
+          "nbProvRank": 23,
+          "lossesRank": 1,
+          "loanRank": 33,
+          "professionalismRank": 6,
+          "innovativenessRank": 16
         },
         {
           "tag": "HAB",
@@ -1240,7 +1538,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 5,
+          "manpowerRank": 6,
+          "forceLimitRank": 8,
+          "nbProvRank": 20,
+          "lossesRank": 2,
+          "loanRank": 34,
+          "professionalismRank": 2,
+          "innovativenessRank": 16
         },
         {
           "tag": "HAB",
@@ -1276,7 +1583,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 5,
+          "manpowerRank": 11,
+          "forceLimitRank": 5,
+          "nbProvRank": 20,
+          "lossesRank": 3,
+          "loanRank": 32,
+          "professionalismRank": 3,
+          "innovativenessRank": 17
         },
         {
           "tag": "HAB",
@@ -1312,7 +1628,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 6,
+          "manpowerRank": 17,
+          "forceLimitRank": 6,
+          "nbProvRank": 20,
+          "lossesRank": 4,
+          "loanRank": 27,
+          "professionalismRank": 2,
+          "innovativenessRank": 20
         }
       ]
     },
@@ -1344,7 +1669,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 9,
+          "manpowerRank": 6,
+          "forceLimitRank": 3,
+          "nbProvRank": 4,
+          "lossesRank": 30,
+          "loanRank": 8,
+          "professionalismRank": 24,
+          "innovativenessRank": 13
         },
         {
           "tag": "MOS",
@@ -1380,7 +1714,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 9,
+          "manpowerRank": 7,
+          "forceLimitRank": 2,
+          "nbProvRank": 3,
+          "lossesRank": 28,
+          "loanRank": 12,
+          "professionalismRank": 17,
+          "innovativenessRank": 10
         },
         {
           "tag": "MOS",
@@ -1416,7 +1759,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 9,
+          "manpowerRank": 8,
+          "forceLimitRank": 2,
+          "nbProvRank": 6,
+          "lossesRank": 35,
+          "loanRank": 32,
+          "professionalismRank": 7,
+          "innovativenessRank": 8
         },
         {
           "tag": "RUS",
@@ -1452,7 +1804,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 7,
+          "manpowerRank": 2,
+          "forceLimitRank": 2,
+          "nbProvRank": 3,
+          "lossesRank": 37,
+          "loanRank": 33,
+          "professionalismRank": 7,
+          "innovativenessRank": 8
         },
         {
           "tag": "RUS",
@@ -1488,7 +1849,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 10,
+          "manpowerRank": 1,
+          "forceLimitRank": 2,
+          "nbProvRank": 3,
+          "lossesRank": 36,
+          "loanRank": 31,
+          "professionalismRank": 8,
+          "innovativenessRank": 8
         },
         {
           "tag": "RUS",
@@ -1524,7 +1894,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 7,
+          "manpowerRank": 1,
+          "forceLimitRank": 1,
+          "nbProvRank": 2,
+          "lossesRank": 30,
+          "loanRank": 26,
+          "professionalismRank": 10,
+          "innovativenessRank": 10
         }
       ]
     },
@@ -1556,7 +1935,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 6,
+          "manpowerRank": 10,
+          "forceLimitRank": 5,
+          "nbProvRank": 15,
+          "lossesRank": 10,
+          "loanRank": 31,
+          "professionalismRank": 36,
+          "innovativenessRank": 28
         },
         {
           "tag": "POL",
@@ -1592,7 +1980,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 8,
+          "manpowerRank": 12,
+          "forceLimitRank": 3,
+          "nbProvRank": 12,
+          "lossesRank": 9,
+          "loanRank": 33,
+          "professionalismRank": 33,
+          "innovativenessRank": 17
         },
         {
           "tag": "POL",
@@ -1628,7 +2025,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 10,
+          "manpowerRank": 4,
+          "forceLimitRank": 3,
+          "nbProvRank": 20,
+          "lossesRank": 9,
+          "loanRank": 31,
+          "professionalismRank": 36,
+          "innovativenessRank": 10
         },
         {
           "tag": "POL",
@@ -1664,7 +2070,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 11,
+          "manpowerRank": 10,
+          "forceLimitRank": 9,
+          "nbProvRank": 22,
+          "lossesRank": 3,
+          "loanRank": 32,
+          "professionalismRank": 36,
+          "innovativenessRank": 10
         },
         {
           "tag": "POL",
@@ -1700,7 +2115,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 12,
+          "manpowerRank": 17,
+          "forceLimitRank": 10,
+          "nbProvRank": 23,
+          "lossesRank": 2,
+          "loanRank": 4,
+          "professionalismRank": 16,
+          "innovativenessRank": 11
         },
         {
           "tag": "POL",
@@ -1736,7 +2160,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 12,
+          "manpowerRank": 19,
+          "forceLimitRank": 12,
+          "nbProvRank": 23,
+          "lossesRank": 1,
+          "loanRank": 4,
+          "professionalismRank": 24,
+          "innovativenessRank": 12
         }
       ]
     },
@@ -1768,7 +2201,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 20,
+          "manpowerRank": 5,
+          "forceLimitRank": 8,
+          "nbProvRank": 14,
+          "lossesRank": 14,
+          "loanRank": 30,
+          "professionalismRank": 35,
+          "innovativenessRank": 33
         },
         {
           "tag": "KAZ",
@@ -1804,7 +2246,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 28,
+          "manpowerRank": 13,
+          "forceLimitRank": 11,
+          "nbProvRank": 16,
+          "lossesRank": 8,
+          "loanRank": 32,
+          "professionalismRank": 25,
+          "innovativenessRank": 31
         },
         {
           "tag": "KAZ",
@@ -1840,7 +2291,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 32,
+          "manpowerRank": 10,
+          "forceLimitRank": 15,
+          "nbProvRank": 8,
+          "lossesRank": 10,
+          "loanRank": 30,
+          "professionalismRank": 17,
+          "innovativenessRank": 18
         },
         {
           "tag": "KAZ",
@@ -1876,7 +2336,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 27,
+          "manpowerRank": 25,
+          "forceLimitRank": 21,
+          "nbProvRank": 9,
+          "lossesRank": 14,
+          "loanRank": 31,
+          "professionalismRank": 19,
+          "innovativenessRank": 19
         },
         {
           "tag": "KAZ",
@@ -1912,7 +2381,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 21,
+          "manpowerRank": 10,
+          "forceLimitRank": 19,
+          "nbProvRank": 6,
+          "lossesRank": 14,
+          "loanRank": 30,
+          "professionalismRank": 22,
+          "innovativenessRank": 19
         },
         {
           "tag": "KAZ",
@@ -1948,7 +2426,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 19,
+          "manpowerRank": 9,
+          "forceLimitRank": 19,
+          "nbProvRank": 5,
+          "lossesRank": 17,
+          "loanRank": 25,
+          "professionalismRank": 20,
+          "innovativenessRank": 11
         }
       ]
     },
@@ -1980,7 +2467,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 36,
+          "manpowerRank": 34,
+          "forceLimitRank": 32,
+          "nbProvRank": 25,
+          "lossesRank": 9,
+          "loanRank": 29,
+          "professionalismRank": 5,
+          "innovativenessRank": 15
         },
         {
           "tag": "MER",
@@ -2016,7 +2512,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 27,
+          "manpowerRank": 17,
+          "forceLimitRank": 31,
+          "nbProvRank": 21,
+          "lossesRank": 22,
+          "loanRank": 31,
+          "professionalismRank": 4,
+          "innovativenessRank": 37
         },
         {
           "tag": "MER",
@@ -2052,7 +2557,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 34,
+          "manpowerRank": 13,
+          "forceLimitRank": 33,
+          "nbProvRank": 22,
+          "lossesRank": 24,
+          "loanRank": 8,
+          "professionalismRank": 3,
+          "innovativenessRank": 37
         },
         {
           "tag": "MER",
@@ -2088,7 +2602,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 37,
+          "incomeRank": 37,
+          "manpowerRank": 20,
+          "forceLimitRank": 37,
+          "nbProvRank": 23,
+          "lossesRank": 30,
+          "loanRank": 30,
+          "professionalismRank": 3,
+          "innovativenessRank": 34
         },
         {
           "tag": "MER",
@@ -2124,7 +2647,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 35,
+          "incomeRank": 34,
+          "manpowerRank": 24,
+          "forceLimitRank": 36,
+          "nbProvRank": 24,
+          "lossesRank": 31,
+          "loanRank": 29,
+          "professionalismRank": 5,
+          "innovativenessRank": 30
         }
       ]
     },
@@ -2156,7 +2688,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 21,
+          "manpowerRank": 32,
+          "forceLimitRank": 34,
+          "nbProvRank": 11,
+          "lossesRank": 25,
+          "loanRank": 28,
+          "professionalismRank": 28,
+          "innovativenessRank": 20
         },
         {
           "tag": "KHO",
@@ -2192,7 +2733,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 24,
+          "manpowerRank": 35,
+          "forceLimitRank": 34,
+          "nbProvRank": 15,
+          "lossesRank": 23,
+          "loanRank": 11,
+          "professionalismRank": 28,
+          "innovativenessRank": 22
         },
         {
           "tag": "PER",
@@ -2228,7 +2778,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 24,
+          "manpowerRank": 21,
+          "forceLimitRank": 23,
+          "nbProvRank": 9,
+          "lossesRank": 25,
+          "loanRank": 29,
+          "professionalismRank": 25,
+          "innovativenessRank": 22
         },
         {
           "tag": "PER",
@@ -2264,7 +2823,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 23,
+          "manpowerRank": 11,
+          "forceLimitRank": 20,
+          "nbProvRank": 14,
+          "lossesRank": 18,
+          "loanRank": 8,
+          "professionalismRank": 26,
+          "innovativenessRank": 20
         },
         {
           "tag": "PER",
@@ -2300,7 +2868,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 25,
+          "manpowerRank": 13,
+          "forceLimitRank": 25,
+          "nbProvRank": 17,
+          "lossesRank": 7,
+          "loanRank": 6,
+          "professionalismRank": 35,
+          "innovativenessRank": 20
         },
         {
           "tag": "PER",
@@ -2336,7 +2913,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 23,
+          "manpowerRank": 16,
+          "forceLimitRank": 27,
+          "nbProvRank": 11,
+          "lossesRank": 8,
+          "loanRank": 3,
+          "professionalismRank": 32,
+          "innovativenessRank": 21
         }
       ]
     },
@@ -2368,7 +2954,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 35,
+          "incomeRank": 35,
+          "manpowerRank": 33,
+          "forceLimitRank": 20,
+          "nbProvRank": 29,
+          "lossesRank": 17,
+          "loanRank": 27,
+          "professionalismRank": 17,
+          "innovativenessRank": 26
         },
         {
           "tag": "NPL",
@@ -2404,7 +2999,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 20,
+          "manpowerRank": 29,
+          "forceLimitRank": 10,
+          "nbProvRank": 23,
+          "lossesRank": 29,
+          "loanRank": 9,
+          "professionalismRank": 27,
+          "innovativenessRank": 29
         },
         {
           "tag": "NPL",
@@ -2440,7 +3044,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 16,
+          "manpowerRank": 20,
+          "forceLimitRank": 9,
+          "nbProvRank": 25,
+          "lossesRank": 23,
+          "loanRank": 28,
+          "professionalismRank": 29,
+          "innovativenessRank": 29
         },
         {
           "tag": "NPL",
@@ -2476,7 +3089,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 21,
+          "manpowerRank": 13,
+          "forceLimitRank": 11,
+          "nbProvRank": 25,
+          "lossesRank": 21,
+          "loanRank": 29,
+          "professionalismRank": 32,
+          "innovativenessRank": 26
         },
         {
           "tag": "NPL",
@@ -2512,7 +3134,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 19,
+          "manpowerRank": 16,
+          "forceLimitRank": 14,
+          "nbProvRank": 22,
+          "lossesRank": 25,
+          "loanRank": 28,
+          "professionalismRank": 20,
+          "innovativenessRank": 25
         },
         {
           "tag": "NPL",
@@ -2548,7 +3179,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 17,
+          "manpowerRank": 15,
+          "forceLimitRank": 8,
+          "nbProvRank": 17,
+          "lossesRank": 22,
+          "loanRank": 24,
+          "professionalismRank": 18,
+          "innovativenessRank": 24
         }
       ]
     },
@@ -2580,7 +3220,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 36,
+          "incomeRank": 17,
+          "manpowerRank": 35,
+          "forceLimitRank": 36,
+          "nbProvRank": 36,
+          "lossesRank": 34,
+          "loanRank": 26,
+          "professionalismRank": 6,
+          "innovativenessRank": 2
         },
         {
           "tag": "BRB",
@@ -2616,7 +3265,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 34,
+          "incomeRank": 12,
+          "manpowerRank": 33,
+          "forceLimitRank": 36,
+          "nbProvRank": 35,
+          "lossesRank": 33,
+          "loanRank": 15,
+          "professionalismRank": 19,
+          "innovativenessRank": 1
         },
         {
           "tag": "BRB",
@@ -2652,7 +3310,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 6,
+          "manpowerRank": 26,
+          "forceLimitRank": 14,
+          "nbProvRank": 34,
+          "lossesRank": 30,
+          "loanRank": 27,
+          "professionalismRank": 9,
+          "innovativenessRank": 2
         },
         {
           "tag": "BRB",
@@ -2688,7 +3355,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 8,
+          "manpowerRank": 31,
+          "forceLimitRank": 12,
+          "nbProvRank": 28,
+          "lossesRank": 16,
+          "loanRank": 28,
+          "professionalismRank": 28,
+          "innovativenessRank": 2
         },
         {
           "tag": "NED",
@@ -2724,7 +3400,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 9,
+          "manpowerRank": 34,
+          "forceLimitRank": 9,
+          "nbProvRank": 25,
+          "lossesRank": 26,
+          "loanRank": 27,
+          "professionalismRank": 12,
+          "innovativenessRank": 2
         },
         {
           "tag": "NED",
@@ -2760,7 +3445,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 5,
+          "manpowerRank": 27,
+          "forceLimitRank": 10,
+          "nbProvRank": 25,
+          "lossesRank": 18,
+          "loanRank": 2,
+          "professionalismRank": 5,
+          "innovativenessRank": 3
         }
       ]
     },
@@ -2792,7 +3486,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 13,
+          "manpowerRank": 12,
+          "forceLimitRank": 9,
+          "nbProvRank": 7,
+          "lossesRank": 6,
+          "loanRank": 1,
+          "professionalismRank": 21,
+          "innovativenessRank": 10
         },
         {
           "tag": "ETH",
@@ -2828,7 +3531,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 5,
+          "incomeRank": 14,
+          "manpowerRank": 19,
+          "forceLimitRank": 12,
+          "nbProvRank": 1,
+          "lossesRank": 6,
+          "loanRank": 4,
+          "professionalismRank": 35,
+          "innovativenessRank": 36
         },
         {
           "tag": "ETH",
@@ -2864,7 +3576,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 14,
+          "manpowerRank": 14,
+          "forceLimitRank": 12,
+          "nbProvRank": 1,
+          "lossesRank": 6,
+          "loanRank": 1,
+          "professionalismRank": 22,
+          "innovativenessRank": 36
         },
         {
           "tag": "ETH",
@@ -2900,7 +3621,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 15,
+          "incomeRank": 16,
+          "manpowerRank": 24,
+          "forceLimitRank": 15,
+          "nbProvRank": 2,
+          "lossesRank": 11,
+          "loanRank": 27,
+          "professionalismRank": 22,
+          "innovativenessRank": 32
         },
         {
           "tag": "ETH",
@@ -2936,7 +3666,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 23,
+          "manpowerRank": 20,
+          "forceLimitRank": 15,
+          "nbProvRank": 2,
+          "lossesRank": 18,
+          "loanRank": 26,
+          "professionalismRank": 18,
+          "innovativenessRank": 28
         },
         {
           "tag": "ETH",
@@ -2972,7 +3711,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 15,
+          "manpowerRank": 13,
+          "forceLimitRank": 13,
+          "nbProvRank": 3,
+          "lossesRank": 23,
+          "loanRank": 23,
+          "professionalismRank": 15,
+          "innovativenessRank": 27
         }
       ]
     },
@@ -3004,7 +3752,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 27,
+          "manpowerRank": 28,
+          "forceLimitRank": 29,
+          "nbProvRank": 28,
+          "lossesRank": 32,
+          "loanRank": 25,
+          "professionalismRank": 2,
+          "innovativenessRank": 16
         },
         {
           "tag": "SWI",
@@ -3040,7 +3797,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 33,
+          "manpowerRank": 32,
+          "forceLimitRank": 33,
+          "nbProvRank": 32,
+          "lossesRank": 20,
+          "loanRank": 7,
+          "professionalismRank": 1,
+          "innovativenessRank": 5
         },
         {
           "tag": "SWI",
@@ -3076,7 +3842,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 37,
+          "manpowerRank": 36,
+          "forceLimitRank": 36,
+          "nbProvRank": 32,
+          "lossesRank": 28,
+          "loanRank": 26,
+          "professionalismRank": 1,
+          "innovativenessRank": 6
         },
         {
           "tag": "SWI",
@@ -3112,7 +3887,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 31,
+          "manpowerRank": 35,
+          "forceLimitRank": 32,
+          "nbProvRank": 32,
+          "lossesRank": 34,
+          "loanRank": 9,
+          "professionalismRank": 1,
+          "innovativenessRank": 7
         },
         {
           "tag": "SWI",
@@ -3148,7 +3932,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 27,
+          "manpowerRank": 31,
+          "forceLimitRank": 32,
+          "nbProvRank": 33,
+          "lossesRank": 35,
+          "loanRank": 25,
+          "professionalismRank": 1,
+          "innovativenessRank": 7
         },
         {
           "tag": "SWI",
@@ -3184,7 +3977,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 26,
+          "manpowerRank": 20,
+          "forceLimitRank": 23,
+          "nbProvRank": 30,
+          "lossesRank": 31,
+          "loanRank": 5,
+          "professionalismRank": 1,
+          "innovativenessRank": 6
         }
       ]
     },
@@ -3216,7 +4018,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 1,
+          "manpowerRank": 3,
+          "forceLimitRank": 2,
+          "nbProvRank": 1,
+          "lossesRank": 3,
+          "loanRank": 2,
+          "professionalismRank": 18,
+          "innovativenessRank": 4
         },
         {
           "tag": "ENG",
@@ -3252,7 +4063,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 2,
+          "manpowerRank": 10,
+          "forceLimitRank": 7,
+          "nbProvRank": 2,
+          "lossesRank": 5,
+          "loanRank": 30,
+          "professionalismRank": 20,
+          "innovativenessRank": 4
         },
         {
           "tag": "ENG",
@@ -3288,7 +4108,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 4,
+          "manpowerRank": 9,
+          "forceLimitRank": 5,
+          "nbProvRank": 2,
+          "lossesRank": 5,
+          "loanRank": 25,
+          "professionalismRank": 26,
+          "innovativenessRank": 4
         },
         {
           "tag": "GBR",
@@ -3324,7 +4153,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 3,
+          "manpowerRank": 7,
+          "forceLimitRank": 5,
+          "nbProvRank": 1,
+          "lossesRank": 5,
+          "loanRank": 4,
+          "professionalismRank": 13,
+          "innovativenessRank": 3
         },
         {
           "tag": "GBR",
@@ -3360,7 +4198,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 2,
+          "manpowerRank": 8,
+          "forceLimitRank": 6,
+          "nbProvRank": 1,
+          "lossesRank": 12,
+          "loanRank": 24,
+          "professionalismRank": 11,
+          "innovativenessRank": 3
         },
         {
           "tag": "GBR",
@@ -3396,7 +4243,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 2,
+          "incomeRank": 1,
+          "manpowerRank": 10,
+          "forceLimitRank": 5,
+          "nbProvRank": 1,
+          "lossesRank": 13,
+          "loanRank": 22,
+          "professionalismRank": 6,
+          "innovativenessRank": 2
         }
       ]
     },
@@ -3428,7 +4284,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 24,
+          "manpowerRank": 18,
+          "forceLimitRank": 16,
+          "nbProvRank": 10,
+          "lossesRank": 31,
+          "loanRank": 24,
+          "professionalismRank": 34,
+          "innovativenessRank": 25
         },
         {
           "tag": "TUN",
@@ -3464,7 +4329,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 35,
+          "manpowerRank": 27,
+          "forceLimitRank": 26,
+          "nbProvRank": 17,
+          "lossesRank": 14,
+          "loanRank": 14,
+          "professionalismRank": 32,
+          "innovativenessRank": 26
         },
         {
           "tag": "TUN",
@@ -3500,7 +4374,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 34,
+          "incomeRank": 35,
+          "manpowerRank": 32,
+          "forceLimitRank": 30,
+          "nbProvRank": 21,
+          "lossesRank": 19,
+          "loanRank": 24,
+          "professionalismRank": 34,
+          "innovativenessRank": 32
         },
         {
           "tag": "TUN",
@@ -3536,7 +4419,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 35,
+          "manpowerRank": 37,
+          "forceLimitRank": 31,
+          "nbProvRank": 13,
+          "lossesRank": 20,
+          "loanRank": 26,
+          "professionalismRank": 33,
+          "innovativenessRank": 37
         },
         {
           "tag": "TUN",
@@ -3572,7 +4464,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 33,
+          "manpowerRank": 30,
+          "forceLimitRank": 27,
+          "nbProvRank": 10,
+          "lossesRank": 27,
+          "loanRank": 23,
+          "professionalismRank": 29,
+          "innovativenessRank": 35
         },
         {
           "tag": "TUN",
@@ -3608,7 +4509,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 28,
+          "manpowerRank": 23,
+          "forceLimitRank": 22,
+          "nbProvRank": 4,
+          "lossesRank": 24,
+          "loanRank": 21,
+          "professionalismRank": 30,
+          "innovativenessRank": 31
         }
       ]
     },
@@ -3640,7 +4550,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 11,
+          "manpowerRank": 21,
+          "forceLimitRank": 11,
+          "nbProvRank": 24,
+          "lossesRank": 29,
+          "loanRank": 23,
+          "professionalismRank": 3,
+          "innovativenessRank": 7
         },
         {
           "tag": "VEN",
@@ -3676,7 +4595,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 25,
+          "manpowerRank": 20,
+          "forceLimitRank": 21,
+          "nbProvRank": 28,
+          "lossesRank": 12,
+          "loanRank": 1,
+          "professionalismRank": 14,
+          "innovativenessRank": 12
         },
         {
           "tag": "VEN",
@@ -3712,7 +4640,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 15,
+          "manpowerRank": 35,
+          "forceLimitRank": 27,
+          "nbProvRank": 27,
+          "lossesRank": 20,
+          "loanRank": 23,
+          "professionalismRank": 13,
+          "innovativenessRank": 35
         },
         {
           "tag": "VEN",
@@ -3748,7 +4685,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 13,
+          "manpowerRank": 33,
+          "forceLimitRank": 25,
+          "nbProvRank": 31,
+          "lossesRank": 35,
+          "loanRank": 25,
+          "professionalismRank": 4,
+          "innovativenessRank": 29
         },
         {
           "tag": "VEN",
@@ -3784,7 +4730,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 13,
+          "manpowerRank": 32,
+          "forceLimitRank": 26,
+          "nbProvRank": 28,
+          "lossesRank": 28,
+          "loanRank": 22,
+          "professionalismRank": 9,
+          "innovativenessRank": 29
         },
         {
           "tag": "VEN",
@@ -3820,7 +4775,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 13,
+          "manpowerRank": 29,
+          "forceLimitRank": 16,
+          "nbProvRank": 24,
+          "lossesRank": 28,
+          "loanRank": 20,
+          "professionalismRank": 11,
+          "innovativenessRank": 28
         }
       ]
     },
@@ -3852,7 +4816,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 14,
+          "manpowerRank": 22,
+          "forceLimitRank": 22,
+          "nbProvRank": 20,
+          "lossesRank": 33,
+          "loanRank": 7,
+          "professionalismRank": 13,
+          "innovativenessRank": 3
         },
         {
           "tag": "POR",
@@ -3888,7 +4861,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 10,
+          "manpowerRank": 15,
+          "forceLimitRank": 16,
+          "nbProvRank": 18,
+          "lossesRank": 31,
+          "loanRank": 29,
+          "professionalismRank": 18,
+          "innovativenessRank": 3
         },
         {
           "tag": "POR",
@@ -3924,7 +4906,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 11,
+          "incomeRank": 7,
+          "manpowerRank": 31,
+          "forceLimitRank": 11,
+          "nbProvRank": 17,
+          "lossesRank": 26,
+          "loanRank": 6,
+          "professionalismRank": 21,
+          "innovativenessRank": 1
         },
         {
           "tag": "POR",
@@ -3960,7 +4951,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 12,
+          "manpowerRank": 30,
+          "forceLimitRank": 14,
+          "nbProvRank": 12,
+          "lossesRank": 22,
+          "loanRank": 24,
+          "professionalismRank": 23,
+          "innovativenessRank": 1
         },
         {
           "tag": "POR",
@@ -3996,7 +4996,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 7,
+          "manpowerRank": 35,
+          "forceLimitRank": 12,
+          "nbProvRank": 16,
+          "lossesRank": 23,
+          "loanRank": 21,
+          "professionalismRank": 30,
+          "innovativenessRank": 1
         },
         {
           "tag": "POR",
@@ -4032,7 +5041,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 8,
+          "manpowerRank": 28,
+          "forceLimitRank": 17,
+          "nbProvRank": 14,
+          "lossesRank": 19,
+          "loanRank": 19,
+          "professionalismRank": 28,
+          "innovativenessRank": 1
         }
       ]
     },
@@ -4064,7 +5082,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 15,
+          "manpowerRank": 24,
+          "forceLimitRank": 28,
+          "nbProvRank": 23,
+          "lossesRank": 4,
+          "loanRank": 6,
+          "professionalismRank": 33,
+          "innovativenessRank": 14
         },
         {
           "tag": "DAN",
@@ -4100,7 +5127,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 13,
+          "manpowerRank": 18,
+          "forceLimitRank": 28,
+          "nbProvRank": 25,
+          "lossesRank": 19,
+          "loanRank": 28,
+          "professionalismRank": 9,
+          "innovativenessRank": 13
         },
         {
           "tag": "DAN",
@@ -4136,7 +5172,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 11,
+          "manpowerRank": 22,
+          "forceLimitRank": 20,
+          "nbProvRank": 31,
+          "lossesRank": 14,
+          "loanRank": 22,
+          "professionalismRank": 16,
+          "innovativenessRank": 15
         },
         {
           "tag": "DAN",
@@ -4172,7 +5217,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 18,
+          "manpowerRank": 21,
+          "forceLimitRank": 19,
+          "nbProvRank": 24,
+          "lossesRank": 8,
+          "loanRank": 23,
+          "professionalismRank": 21,
+          "innovativenessRank": 15
         },
         {
           "tag": "DAN",
@@ -4208,7 +5262,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 15,
+          "manpowerRank": 25,
+          "forceLimitRank": 18,
+          "nbProvRank": 27,
+          "lossesRank": 6,
+          "loanRank": 20,
+          "professionalismRank": 13,
+          "innovativenessRank": 15
         },
         {
           "tag": "DAN",
@@ -4244,7 +5307,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 11,
+          "manpowerRank": 26,
+          "forceLimitRank": 18,
+          "nbProvRank": 26,
+          "lossesRank": 7,
+          "loanRank": 18,
+          "professionalismRank": 9,
+          "innovativenessRank": 18
         }
       ]
     },
@@ -4276,7 +5348,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 30,
+          "manpowerRank": 30,
+          "forceLimitRank": 33,
+          "nbProvRank": 32,
+          "lossesRank": 1,
+          "loanRank": 22,
+          "professionalismRank": 32,
+          "innovativenessRank": 37
         },
         {
           "tag": "BYZ",
@@ -4312,7 +5393,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 30,
+          "manpowerRank": 23,
+          "forceLimitRank": 20,
+          "nbProvRank": 24,
+          "lossesRank": 3,
+          "loanRank": 5,
+          "professionalismRank": 30,
+          "innovativenessRank": 19
         },
         {
           "tag": "BYZ",
@@ -4348,7 +5438,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 21,
+          "manpowerRank": 12,
+          "forceLimitRank": 18,
+          "nbProvRank": 24,
+          "lossesRank": 3,
+          "loanRank": 7,
+          "professionalismRank": 37,
+          "innovativenessRank": 24
         },
         {
           "tag": "BYZ",
@@ -4384,7 +5483,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 36,
+          "incomeRank": 28,
+          "manpowerRank": 23,
+          "forceLimitRank": 30,
+          "nbProvRank": 36,
+          "lossesRank": 4,
+          "loanRank": 1,
+          "professionalismRank": 24,
+          "innovativenessRank": 24
         }
       ]
     },
@@ -4416,7 +5524,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 28,
+          "manpowerRank": 15,
+          "forceLimitRank": 25,
+          "nbProvRank": 5,
+          "lossesRank": 24,
+          "loanRank": 5,
+          "professionalismRank": 23,
+          "innovativenessRank": 12
         },
         {
           "tag": "SWE",
@@ -4452,7 +5569,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 36,
+          "incomeRank": 36,
+          "manpowerRank": 21,
+          "forceLimitRank": 27,
+          "nbProvRank": 11,
+          "lossesRank": 36,
+          "loanRank": 10,
+          "professionalismRank": 26,
+          "innovativenessRank": 6
         },
         {
           "tag": "SWE",
@@ -4488,7 +5614,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 36,
+          "incomeRank": 33,
+          "manpowerRank": 28,
+          "forceLimitRank": 29,
+          "nbProvRank": 15,
+          "lossesRank": 37,
+          "loanRank": 3,
+          "professionalismRank": 23,
+          "innovativenessRank": 11
         },
         {
           "tag": "SWE",
@@ -4524,7 +5659,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 34,
+          "incomeRank": 29,
+          "manpowerRank": 27,
+          "forceLimitRank": 35,
+          "nbProvRank": 16,
+          "lossesRank": 31,
+          "loanRank": 3,
+          "professionalismRank": 31,
+          "innovativenessRank": 18
         },
         {
           "tag": "SWE",
@@ -4560,7 +5704,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 34,
+          "incomeRank": 30,
+          "manpowerRank": 29,
+          "forceLimitRank": 34,
+          "nbProvRank": 18,
+          "lossesRank": 34,
+          "loanRank": 19,
+          "professionalismRank": 26,
+          "innovativenessRank": 9
         },
         {
           "tag": "SWE",
@@ -4596,7 +5749,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 31,
+          "manpowerRank": 30,
+          "forceLimitRank": 32,
+          "nbProvRank": 19,
+          "lossesRank": 32,
+          "loanRank": 17,
+          "professionalismRank": 25,
+          "innovativenessRank": 9
         }
       ]
     },
@@ -4628,7 +5790,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 34,
+          "manpowerRank": 9,
+          "forceLimitRank": 12,
+          "nbProvRank": 19,
+          "lossesRank": 15,
+          "loanRank": 10,
+          "professionalismRank": 25,
+          "innovativenessRank": 34
         },
         {
           "tag": "CHG",
@@ -4664,7 +5835,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 22,
+          "manpowerRank": 9,
+          "forceLimitRank": 9,
+          "nbProvRank": 5,
+          "lossesRank": 13,
+          "loanRank": 27,
+          "professionalismRank": 31,
+          "innovativenessRank": 21
         },
         {
           "tag": "CHG",
@@ -4700,7 +5880,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 8,
+          "incomeRank": 17,
+          "manpowerRank": 7,
+          "forceLimitRank": 8,
+          "nbProvRank": 4,
+          "lossesRank": 27,
+          "loanRank": 21,
+          "professionalismRank": 24,
+          "innovativenessRank": 5
         },
         {
           "tag": "CHG",
@@ -4736,7 +5925,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 14,
+          "manpowerRank": 12,
+          "forceLimitRank": 13,
+          "nbProvRank": 4,
+          "lossesRank": 17,
+          "loanRank": 22,
+          "professionalismRank": 20,
+          "innovativenessRank": 5
         },
         {
           "tag": "CHG",
@@ -4772,7 +5970,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 16,
+          "manpowerRank": 7,
+          "forceLimitRank": 16,
+          "nbProvRank": 4,
+          "lossesRank": 9,
+          "loanRank": 18,
+          "professionalismRank": 19,
+          "innovativenessRank": 5
         },
         {
           "tag": "CHG",
@@ -4808,7 +6015,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 20,
+          "manpowerRank": 11,
+          "forceLimitRank": 21,
+          "nbProvRank": 7,
+          "lossesRank": 12,
+          "loanRank": 16,
+          "professionalismRank": 21,
+          "innovativenessRank": 5
         }
       ]
     },
@@ -4840,7 +6056,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 12,
+          "manpowerRank": 13,
+          "forceLimitRank": 7,
+          "nbProvRank": 2,
+          "lossesRank": 11,
+          "loanRank": 4,
+          "professionalismRank": 26,
+          "innovativenessRank": 31
         },
         {
           "tag": "LIT",
@@ -4876,7 +6101,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 15,
+          "manpowerRank": 16,
+          "forceLimitRank": 6,
+          "nbProvRank": 4,
+          "lossesRank": 7,
+          "loanRank": 13,
+          "professionalismRank": 23,
+          "innovativenessRank": 20
         },
         {
           "tag": "LIT",
@@ -4912,7 +6146,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 3,
+          "incomeRank": 23,
+          "manpowerRank": 25,
+          "forceLimitRank": 10,
+          "nbProvRank": 3,
+          "lossesRank": 8,
+          "loanRank": 20,
+          "professionalismRank": 18,
+          "innovativenessRank": 26
         },
         {
           "tag": "UKR",
@@ -4948,7 +6191,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 10,
+          "incomeRank": 17,
+          "manpowerRank": 9,
+          "forceLimitRank": 10,
+          "nbProvRank": 6,
+          "lossesRank": 10,
+          "loanRank": 21,
+          "professionalismRank": 14,
+          "innovativenessRank": 23
         },
         {
           "tag": "UKR",
@@ -4984,7 +6236,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 14,
+          "manpowerRank": 6,
+          "forceLimitRank": 11,
+          "nbProvRank": 7,
+          "lossesRank": 19,
+          "loanRank": 17,
+          "professionalismRank": 17,
+          "innovativenessRank": 23
         },
         {
           "tag": "UKR",
@@ -5020,7 +6281,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 21,
+          "manpowerRank": 12,
+          "forceLimitRank": 15,
+          "nbProvRank": 10,
+          "lossesRank": 25,
+          "loanRank": 15,
+          "professionalismRank": 8,
+          "innovativenessRank": 25
         }
       ]
     },
@@ -5052,7 +6322,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 34,
+          "incomeRank": 26,
+          "manpowerRank": 31,
+          "forceLimitRank": 35,
+          "nbProvRank": 27,
+          "lossesRank": 18,
+          "loanRank": 21,
+          "professionalismRank": 30,
+          "innovativenessRank": 9
         },
         {
           "tag": "SRV",
@@ -5088,7 +6367,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 34,
+          "manpowerRank": 36,
+          "forceLimitRank": 35,
+          "nbProvRank": 22,
+          "lossesRank": 17,
+          "loanRank": 26,
+          "professionalismRank": 34,
+          "innovativenessRank": 18
         },
         {
           "tag": "SRV",
@@ -5124,7 +6412,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 30,
+          "manpowerRank": 18,
+          "forceLimitRank": 28,
+          "nbProvRank": 12,
+          "lossesRank": 18,
+          "loanRank": 19,
+          "professionalismRank": 32,
+          "innovativenessRank": 19
         },
         {
           "tag": "SRV",
@@ -5160,7 +6457,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 22,
+          "manpowerRank": 18,
+          "forceLimitRank": 28,
+          "nbProvRank": 18,
+          "lossesRank": 33,
+          "loanRank": 20,
+          "professionalismRank": 30,
+          "innovativenessRank": 28
         },
         {
           "tag": "SRV",
@@ -5196,7 +6502,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 23,
+          "incomeRank": 32,
+          "manpowerRank": 23,
+          "forceLimitRank": 29,
+          "nbProvRank": 21,
+          "lossesRank": 15,
+          "loanRank": 2,
+          "professionalismRank": 34,
+          "innovativenessRank": 26
         },
         {
           "tag": "SRV",
@@ -5232,7 +6547,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 32,
+          "manpowerRank": 32,
+          "forceLimitRank": 29,
+          "nbProvRank": 21,
+          "lossesRank": 15,
+          "loanRank": 1,
+          "professionalismRank": 31,
+          "innovativenessRank": 30
         }
       ]
     },
@@ -5264,7 +6588,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 18,
+          "manpowerRank": 29,
+          "forceLimitRank": 27,
+          "nbProvRank": 34,
+          "lossesRank": 21,
+          "loanRank": 20,
+          "professionalismRank": 15,
+          "innovativenessRank": 8
         },
         {
           "tag": "MAD",
@@ -5300,7 +6633,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 18,
+          "manpowerRank": 31,
+          "forceLimitRank": 32,
+          "nbProvRank": 27,
+          "lossesRank": 24,
+          "loanRank": 25,
+          "professionalismRank": 15,
+          "innovativenessRank": 35
         },
         {
           "tag": "MAD",
@@ -5336,7 +6678,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 35,
+          "incomeRank": 22,
+          "manpowerRank": 29,
+          "forceLimitRank": 35,
+          "nbProvRank": 33,
+          "lossesRank": 34,
+          "loanRank": 18,
+          "professionalismRank": 8,
+          "innovativenessRank": 34
         },
         {
           "tag": "MAD",
@@ -5372,7 +6723,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 30,
+          "manpowerRank": 26,
+          "forceLimitRank": 27,
+          "nbProvRank": 27,
+          "lossesRank": 32,
+          "loanRank": 19,
+          "professionalismRank": 15,
+          "innovativenessRank": 33
         },
         {
           "tag": "MAD",
@@ -5408,7 +6768,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 33,
+          "incomeRank": 28,
+          "manpowerRank": 22,
+          "forceLimitRank": 23,
+          "nbProvRank": 32,
+          "lossesRank": 33,
+          "loanRank": 16,
+          "professionalismRank": 15,
+          "innovativenessRank": 32
         }
       ]
     },
@@ -5440,7 +6809,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 3,
+          "manpowerRank": 8,
+          "forceLimitRank": 4,
+          "nbProvRank": 6,
+          "lossesRank": 16,
+          "loanRank": 19,
+          "professionalismRank": 10,
+          "innovativenessRank": 27
         },
         {
           "tag": "HUN",
@@ -5476,7 +6854,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 9,
+          "incomeRank": 4,
+          "manpowerRank": 4,
+          "forceLimitRank": 5,
+          "nbProvRank": 9,
+          "lossesRank": 15,
+          "loanRank": 24,
+          "professionalismRank": 11,
+          "innovativenessRank": 8
         },
         {
           "tag": "HUN",
@@ -5512,7 +6899,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 4,
+          "incomeRank": 5,
+          "manpowerRank": 2,
+          "forceLimitRank": 7,
+          "nbProvRank": 7,
+          "lossesRank": 32,
+          "loanRank": 17,
+          "professionalismRank": 14,
+          "innovativenessRank": 7
         },
         {
           "tag": "HUN",
@@ -5548,7 +6944,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 6,
+          "manpowerRank": 3,
+          "forceLimitRank": 6,
+          "nbProvRank": 11,
+          "lossesRank": 19,
+          "loanRank": 18,
+          "professionalismRank": 12,
+          "innovativenessRank": 6
         },
         {
           "tag": "HUN",
@@ -5584,7 +6989,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 7,
+          "incomeRank": 8,
+          "manpowerRank": 4,
+          "forceLimitRank": 8,
+          "nbProvRank": 13,
+          "lossesRank": 11,
+          "loanRank": 15,
+          "professionalismRank": 14,
+          "innovativenessRank": 6
         },
         {
           "tag": "HUN",
@@ -5620,7 +7034,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 6,
+          "incomeRank": 9,
+          "manpowerRank": 5,
+          "forceLimitRank": 11,
+          "nbProvRank": 13,
+          "lossesRank": 10,
+          "loanRank": 14,
+          "professionalismRank": 19,
+          "innovativenessRank": 7
         }
       ]
     },
@@ -5652,7 +7075,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 19,
+          "manpowerRank": 19,
+          "forceLimitRank": 24,
+          "nbProvRank": 21,
+          "lossesRank": 19,
+          "loanRank": 18,
+          "professionalismRank": 20,
+          "innovativenessRank": 24
         },
         {
           "tag": "BAH",
@@ -5688,7 +7120,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 33,
+          "incomeRank": 19,
+          "manpowerRank": 30,
+          "forceLimitRank": 23,
+          "nbProvRank": 26,
+          "lossesRank": 34,
+          "loanRank": 23,
+          "professionalismRank": 7,
+          "innovativenessRank": 33
         },
         {
           "tag": "BAH",
@@ -5724,7 +7165,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 33,
+          "incomeRank": 28,
+          "manpowerRank": 24,
+          "forceLimitRank": 26,
+          "nbProvRank": 30,
+          "lossesRank": 33,
+          "loanRank": 16,
+          "professionalismRank": 5,
+          "innovativenessRank": 33
         },
         {
           "tag": "BAH",
@@ -5760,7 +7210,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 24,
+          "manpowerRank": 34,
+          "forceLimitRank": 24,
+          "nbProvRank": 26,
+          "lossesRank": 25,
+          "loanRank": 17,
+          "professionalismRank": 35,
+          "innovativenessRank": 35
         },
         {
           "tag": "BAH",
@@ -5796,7 +7255,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 36,
+          "incomeRank": 35,
+          "manpowerRank": 36,
+          "forceLimitRank": 24,
+          "nbProvRank": 36,
+          "lossesRank": 22,
+          "loanRank": 14,
+          "professionalismRank": 28,
+          "innovativenessRank": 34
         }
       ]
     },
@@ -5828,7 +7296,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 23,
+          "manpowerRank": 14,
+          "forceLimitRank": 15,
+          "nbProvRank": 9,
+          "lossesRank": 26,
+          "loanRank": 17,
+          "professionalismRank": 12,
+          "innovativenessRank": 18
         },
         {
           "tag": "MSY",
@@ -5864,7 +7341,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 19,
+          "incomeRank": 31,
+          "manpowerRank": 14,
+          "forceLimitRank": 19,
+          "nbProvRank": 14,
+          "lossesRank": 21,
+          "loanRank": 22,
+          "professionalismRank": 13,
+          "innovativenessRank": 28
         },
         {
           "tag": "MSY",
@@ -5900,7 +7386,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 27,
+          "manpowerRank": 15,
+          "forceLimitRank": 22,
+          "nbProvRank": 11,
+          "lossesRank": 21,
+          "loanRank": 15,
+          "professionalismRank": 15,
+          "innovativenessRank": 27
         },
         {
           "tag": "MSY",
@@ -5936,7 +7431,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 32,
+          "manpowerRank": 19,
+          "forceLimitRank": 22,
+          "nbProvRank": 19,
+          "lossesRank": 28,
+          "loanRank": 5,
+          "professionalismRank": 11,
+          "innovativenessRank": 22
         },
         {
           "tag": "MSY",
@@ -5972,7 +7476,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 29,
+          "manpowerRank": 14,
+          "forceLimitRank": 22,
+          "nbProvRank": 15,
+          "lossesRank": 5,
+          "loanRank": 1,
+          "professionalismRank": 23,
+          "innovativenessRank": 22
         },
         {
           "tag": "MSY",
@@ -6008,7 +7521,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 27,
+          "manpowerRank": 14,
+          "forceLimitRank": 24,
+          "nbProvRank": 16,
+          "lossesRank": 9,
+          "loanRank": 13,
+          "professionalismRank": 22,
+          "innovativenessRank": 23
         }
       ]
     },
@@ -6040,7 +7562,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 37,
+          "incomeRank": 37,
+          "manpowerRank": 37,
+          "forceLimitRank": 37,
+          "nbProvRank": 37,
+          "lossesRank": 37,
+          "loanRank": 16,
+          "professionalismRank": 9,
+          "innovativenessRank": 36
         },
         {
           "tag": "HES",
@@ -6076,7 +7607,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 37,
+          "incomeRank": 37,
+          "manpowerRank": 37,
+          "forceLimitRank": 37,
+          "nbProvRank": 37,
+          "lossesRank": 37,
+          "loanRank": 21,
+          "professionalismRank": 5,
+          "innovativenessRank": 30
         },
         {
           "tag": "HES",
@@ -6112,7 +7652,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 26,
+          "manpowerRank": 37,
+          "forceLimitRank": 37,
+          "nbProvRank": 37,
+          "lossesRank": 36,
+          "loanRank": 14,
+          "professionalismRank": 4,
+          "innovativenessRank": 12
         },
         {
           "tag": "WES",
@@ -6148,7 +7697,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 14,
+          "incomeRank": 9,
+          "manpowerRank": 29,
+          "forceLimitRank": 7,
+          "nbProvRank": 30,
+          "lossesRank": 36,
+          "loanRank": 16,
+          "professionalismRank": 8,
+          "innovativenessRank": 11
         },
         {
           "tag": "WES",
@@ -6184,7 +7742,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 13,
+          "incomeRank": 11,
+          "manpowerRank": 19,
+          "forceLimitRank": 7,
+          "nbProvRank": 31,
+          "lossesRank": 29,
+          "loanRank": 13,
+          "professionalismRank": 6,
+          "innovativenessRank": 16
         },
         {
           "tag": "WES",
@@ -6220,7 +7787,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 14,
+          "manpowerRank": 8,
+          "forceLimitRank": 9,
+          "nbProvRank": 29,
+          "lossesRank": 26,
+          "loanRank": 12,
+          "professionalismRank": 7,
+          "innovativenessRank": 22
         }
       ]
     },
@@ -6252,7 +7828,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 10,
+          "manpowerRank": 16,
+          "forceLimitRank": 19,
+          "nbProvRank": 35,
+          "lossesRank": 36,
+          "loanRank": 15,
+          "professionalismRank": 4,
+          "innovativenessRank": 32
         },
         {
           "tag": "MLO",
@@ -6288,7 +7873,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 11,
+          "manpowerRank": 6,
+          "forceLimitRank": 15,
+          "nbProvRank": 36,
+          "lossesRank": 10,
+          "loanRank": 3,
+          "professionalismRank": 16,
+          "innovativenessRank": 23
         },
         {
           "tag": "MLO",
@@ -6324,7 +7918,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 13,
+          "manpowerRank": 23,
+          "forceLimitRank": 24,
+          "nbProvRank": 35,
+          "lossesRank": 7,
+          "loanRank": 13,
+          "professionalismRank": 20,
+          "innovativenessRank": 25
         },
         {
           "tag": "MLO",
@@ -6360,7 +7963,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 15,
+          "manpowerRank": 22,
+          "forceLimitRank": 17,
+          "nbProvRank": 34,
+          "lossesRank": 13,
+          "loanRank": 15,
+          "professionalismRank": 18,
+          "innovativenessRank": 30
         },
         {
           "tag": "TUS",
@@ -6396,7 +8008,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 18,
+          "manpowerRank": 27,
+          "forceLimitRank": 20,
+          "nbProvRank": 34,
+          "lossesRank": 10,
+          "loanRank": 12,
+          "professionalismRank": 27,
+          "innovativenessRank": 33
         },
         {
           "tag": "TUS",
@@ -6432,7 +8053,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 25,
+          "incomeRank": 18,
+          "manpowerRank": 22,
+          "forceLimitRank": 26,
+          "nbProvRank": 31,
+          "lossesRank": 11,
+          "loanRank": 11,
+          "professionalismRank": 16,
+          "innovativenessRank": 32
         }
       ]
     },
@@ -6464,7 +8094,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 29,
+          "manpowerRank": 26,
+          "forceLimitRank": 21,
+          "nbProvRank": 31,
+          "lossesRank": 12,
+          "loanRank": 14,
+          "professionalismRank": 27,
+          "innovativenessRank": 35
         },
         {
           "tag": "PUN",
@@ -6500,7 +8139,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 21,
+          "manpowerRank": 22,
+          "forceLimitRank": 22,
+          "nbProvRank": 31,
+          "lossesRank": 16,
+          "loanRank": 20,
+          "professionalismRank": 24,
+          "innovativenessRank": 24
         },
         {
           "tag": "PUN",
@@ -6536,7 +8184,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 25,
+          "manpowerRank": 30,
+          "forceLimitRank": 17,
+          "nbProvRank": 26,
+          "lossesRank": 15,
+          "loanRank": 12,
+          "professionalismRank": 10,
+          "innovativenessRank": 23
         },
         {
           "tag": "PUN",
@@ -6572,7 +8229,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 35,
+          "incomeRank": 34,
+          "manpowerRank": 8,
+          "forceLimitRank": 36,
+          "nbProvRank": 35,
+          "lossesRank": 27,
+          "loanRank": 14,
+          "professionalismRank": 10,
+          "innovativenessRank": 21
         },
         {
           "tag": "PUN",
@@ -6608,7 +8274,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 32,
+          "incomeRank": 31,
+          "manpowerRank": 12,
+          "forceLimitRank": 33,
+          "nbProvRank": 30,
+          "lossesRank": 32,
+          "loanRank": 11,
+          "professionalismRank": 4,
+          "innovativenessRank": 21
         },
         {
           "tag": "PUN",
@@ -6644,7 +8319,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 29,
+          "manpowerRank": 18,
+          "forceLimitRank": 31,
+          "nbProvRank": 28,
+          "lossesRank": 29,
+          "loanRank": 10,
+          "professionalismRank": 3,
+          "innovativenessRank": 17
         }
       ]
     },
@@ -6676,7 +8360,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 33,
+          "incomeRank": 33,
+          "manpowerRank": 23,
+          "forceLimitRank": 31,
+          "nbProvRank": 33,
+          "lossesRank": 27,
+          "loanRank": 13,
+          "professionalismRank": 19,
+          "innovativenessRank": 29
         },
         {
           "tag": "BRA",
@@ -6712,7 +8405,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 35,
+          "incomeRank": 26,
+          "manpowerRank": 25,
+          "forceLimitRank": 30,
+          "nbProvRank": 30,
+          "lossesRank": 30,
+          "loanRank": 19,
+          "professionalismRank": 6,
+          "innovativenessRank": 27
         },
         {
           "tag": "BRA",
@@ -6748,7 +8450,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 31,
+          "manpowerRank": 33,
+          "forceLimitRank": 32,
+          "nbProvRank": 29,
+          "lossesRank": 16,
+          "loanRank": 5,
+          "professionalismRank": 30,
+          "innovativenessRank": 31
         },
         {
           "tag": "BRA",
@@ -6784,7 +8495,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 33,
+          "incomeRank": 33,
+          "manpowerRank": 28,
+          "forceLimitRank": 34,
+          "nbProvRank": 29,
+          "lossesRank": 9,
+          "loanRank": 13,
+          "professionalismRank": 27,
+          "innovativenessRank": 36
         },
         {
           "tag": "PRU",
@@ -6820,7 +8540,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 26,
+          "manpowerRank": 33,
+          "forceLimitRank": 28,
+          "nbProvRank": 29,
+          "lossesRank": 21,
+          "loanRank": 7,
+          "professionalismRank": 32,
+          "innovativenessRank": 31
         },
         {
           "tag": "PRU",
@@ -6856,7 +8585,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 24,
+          "manpowerRank": 25,
+          "forceLimitRank": 20,
+          "nbProvRank": 27,
+          "lossesRank": 27,
+          "loanRank": 9,
+          "professionalismRank": 26,
+          "innovativenessRank": 29
         }
       ]
     },
@@ -6888,7 +8626,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 31,
+          "manpowerRank": 25,
+          "forceLimitRank": 26,
+          "nbProvRank": 13,
+          "lossesRank": 22,
+          "loanRank": 12,
+          "professionalismRank": 31,
+          "innovativenessRank": 5
         },
         {
           "tag": "YEM",
@@ -6924,7 +8671,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 29,
+          "manpowerRank": 5,
+          "forceLimitRank": 18,
+          "nbProvRank": 10,
+          "lossesRank": 18,
+          "loanRank": 18,
+          "professionalismRank": 29,
+          "innovativenessRank": 7
         },
         {
           "tag": "YEM",
@@ -6960,7 +8716,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 22,
+          "incomeRank": 29,
+          "manpowerRank": 11,
+          "forceLimitRank": 25,
+          "nbProvRank": 16,
+          "lossesRank": 17,
+          "loanRank": 11,
+          "professionalismRank": 19,
+          "innovativenessRank": 21
         },
         {
           "tag": "YEM",
@@ -6996,7 +8761,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 36,
+          "manpowerRank": 16,
+          "forceLimitRank": 23,
+          "nbProvRank": 10,
+          "lossesRank": 26,
+          "loanRank": 7,
+          "professionalismRank": 5,
+          "innovativenessRank": 13
         },
         {
           "tag": "YEM",
@@ -7032,7 +8806,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 36,
+          "manpowerRank": 21,
+          "forceLimitRank": 31,
+          "nbProvRank": 19,
+          "lossesRank": 20,
+          "loanRank": 10,
+          "professionalismRank": 31,
+          "innovativenessRank": 13
         },
         {
           "tag": "YEM",
@@ -7068,7 +8851,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 30,
+          "incomeRank": 30,
+          "manpowerRank": 24,
+          "forceLimitRank": 30,
+          "nbProvRank": 18,
+          "lossesRank": 21,
+          "loanRank": 8,
+          "professionalismRank": 17,
+          "innovativenessRank": 14
         }
       ]
     },
@@ -7100,7 +8892,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 12,
+          "incomeRank": 8,
+          "manpowerRank": 11,
+          "forceLimitRank": 10,
+          "nbProvRank": 22,
+          "lossesRank": 7,
+          "loanRank": 3,
+          "professionalismRank": 22,
+          "innovativenessRank": 23
         },
         {
           "tag": "NAP",
@@ -7136,7 +8937,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 16,
+          "manpowerRank": 8,
+          "forceLimitRank": 14,
+          "nbProvRank": 33,
+          "lossesRank": 4,
+          "loanRank": 2,
+          "professionalismRank": 12,
+          "innovativenessRank": 11
         },
         {
           "tag": "NAP",
@@ -7172,7 +8982,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 37,
+          "incomeRank": 36,
+          "manpowerRank": 19,
+          "forceLimitRank": 34,
+          "nbProvRank": 36,
+          "lossesRank": 4,
+          "loanRank": 10,
+          "professionalismRank": 33,
+          "innovativenessRank": 9
         },
         {
           "tag": "NAP",
@@ -7208,7 +9027,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 28,
+          "incomeRank": 26,
+          "manpowerRank": 17,
+          "forceLimitRank": 29,
+          "nbProvRank": 37,
+          "lossesRank": 6,
+          "loanRank": 12,
+          "professionalismRank": 34,
+          "innovativenessRank": 9
         },
         {
           "tag": "NAP",
@@ -7244,7 +9072,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 20,
+          "manpowerRank": 18,
+          "forceLimitRank": 30,
+          "nbProvRank": 35,
+          "lossesRank": 16,
+          "loanRank": 9,
+          "professionalismRank": 24,
+          "innovativenessRank": 10
         },
         {
           "tag": "NAP",
@@ -7280,7 +9117,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 27,
+          "incomeRank": 22,
+          "manpowerRank": 21,
+          "forceLimitRank": 25,
+          "nbProvRank": 32,
+          "lossesRank": 20,
+          "loanRank": 7,
+          "professionalismRank": 14,
+          "innovativenessRank": 8
         }
       ]
     },
@@ -7312,7 +9158,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 25,
+          "manpowerRank": 36,
+          "forceLimitRank": 30,
+          "nbProvRank": 30,
+          "lossesRank": 20,
+          "loanRank": 9,
+          "professionalismRank": 8,
+          "innovativenessRank": 22
         },
         {
           "tag": "VIJ",
@@ -7348,7 +9203,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 26,
+          "incomeRank": 17,
+          "manpowerRank": 34,
+          "forceLimitRank": 25,
+          "nbProvRank": 29,
+          "lossesRank": 26,
+          "loanRank": 17,
+          "professionalismRank": 10,
+          "innovativenessRank": 25
         },
         {
           "tag": "VIJ",
@@ -7384,7 +9248,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 29,
+          "incomeRank": 19,
+          "manpowerRank": 27,
+          "forceLimitRank": 31,
+          "nbProvRank": 28,
+          "lossesRank": 12,
+          "loanRank": 2,
+          "professionalismRank": 28,
+          "innovativenessRank": 28
         },
         {
           "tag": "VIJ",
@@ -7420,7 +9293,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 31,
+          "incomeRank": 20,
+          "manpowerRank": 36,
+          "forceLimitRank": 33,
+          "nbProvRank": 33,
+          "lossesRank": 23,
+          "loanRank": 11,
+          "professionalismRank": 29,
+          "innovativenessRank": 25
         },
         {
           "tag": "VIJ",
@@ -7456,7 +9338,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 17,
+          "manpowerRank": 28,
+          "forceLimitRank": 35,
+          "nbProvRank": 26,
+          "lossesRank": 30,
+          "loanRank": 8,
+          "professionalismRank": 25,
+          "innovativenessRank": 24
         },
         {
           "tag": "VIJ",
@@ -7492,7 +9383,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 17,
+          "incomeRank": 25,
+          "manpowerRank": 31,
+          "forceLimitRank": 28,
+          "nbProvRank": 22,
+          "lossesRank": 14,
+          "loanRank": 6,
+          "professionalismRank": 23,
+          "innovativenessRank": 15
         }
       ]
     },
@@ -7524,7 +9424,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 21,
+          "incomeRank": 16,
+          "manpowerRank": 27,
+          "forceLimitRank": 18,
+          "nbProvRank": 18,
+          "lossesRank": 35,
+          "loanRank": 11,
+          "professionalismRank": 14,
+          "innovativenessRank": 30
         },
         {
           "tag": "MOR",
@@ -7560,7 +9469,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 18,
+          "incomeRank": 7,
+          "manpowerRank": 28,
+          "forceLimitRank": 13,
+          "nbProvRank": 19,
+          "lossesRank": 35,
+          "loanRank": 16,
+          "professionalismRank": 3,
+          "innovativenessRank": 34
         },
         {
           "tag": "MOR",
@@ -7596,7 +9514,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 16,
+          "incomeRank": 12,
+          "manpowerRank": 34,
+          "forceLimitRank": 21,
+          "nbProvRank": 14,
+          "lossesRank": 29,
+          "loanRank": 9,
+          "professionalismRank": 12,
+          "innovativenessRank": 30
         },
         {
           "tag": "MOR",
@@ -7632,7 +9559,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 24,
+          "incomeRank": 25,
+          "manpowerRank": 32,
+          "forceLimitRank": 26,
+          "nbProvRank": 21,
+          "lossesRank": 29,
+          "loanRank": 10,
+          "professionalismRank": 17,
+          "innovativenessRank": 27
         },
         {
           "tag": "MOR",
@@ -7668,7 +9604,16 @@ const data =
             "globalTrade": false,
             "manufactories": false,
             "enlightenment": false
-          }
+          },
+          "devRank": 20,
+          "incomeRank": 24,
+          "manpowerRank": 26,
+          "forceLimitRank": 21,
+          "nbProvRank": 12,
+          "lossesRank": 24,
+          "loanRank": 5,
+          "professionalismRank": 21,
+          "innovativenessRank": 36
         }
       ]
     }
