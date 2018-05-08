@@ -62,7 +62,7 @@ let fillCountry = function (currCountry, i) {
         currCountry.classList.add("deadCountry");
 
         let deadCountryText = document.createElement("div");
-        deadCountryText.innerHTML = 'Mort session ' + data.players[i].sessions.length;
+        deadCountryText.innerHTML = 'Mort session ' + (data.players[i].sessions.length + 1);
         deadCountryText.classList.add("deadCountryText");
         currCountry.appendChild(deadCountryText);
     }
