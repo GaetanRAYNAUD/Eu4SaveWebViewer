@@ -25,38 +25,40 @@ let addCoutries = function () {
 };
 
 let fillCountry = function (currCountry, i) {
-    currCountry.querySelector("#rank").src = './images/government_ranks/' + data.players[i].sessions[data.players[i].sessions.length - 1].rank + '.png';
+    let session = data.players[i].sessions[data.players[i].sessions.length - 1];
+    
+    currCountry.querySelector("#rank").src = './images/government_ranks/' + session.rank + '.png';
     currCountry.querySelector("#pseudo").innerHTML = data.players[i].pseudo;
-    currCountry.querySelector("#flag").src = './images/flags/' + data.players[i].sessions[data.players[i].sessions.length - 1].tag + '.png';
-    currCountry.querySelector("#culture").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].culture;
-    currCountry.querySelector("#capital").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].capital;
-    currCountry.querySelector("#government").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].government;
-    currCountry.querySelector("#religion").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].religion;
-    currCountry.querySelector("#religionImg").src = './images/religions/' + data.players[i].sessions[data.players[i].sessions.length - 1].religion + '.png';
-    currCountry.querySelector("#dev").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].dev;
-    currCountry.querySelector("#income").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].income;
-    currCountry.querySelector("#manpower").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].manpower;
-    currCountry.querySelector("#forceLimit").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].forceLimit;
-    currCountry.querySelector("#nbProv").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].nbProv;
-    currCountry.querySelector("#losses").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].losses;
-    currCountry.querySelector("#loan").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].loan;
-    currCountry.querySelector("#professionalism").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].professionalism +'%';
-    currCountry.querySelector("#innovativeness").innerHTML = data.players[i].sessions[data.players[i].sessions.length - 1].innovativeness +'%';
+    currCountry.querySelector("#flag").src = './images/flags/' + session.tag + '.png';
+    currCountry.querySelector("#culture").innerHTML = session.culture;
+    currCountry.querySelector("#capital").innerHTML = session.capital;
+    currCountry.querySelector("#government").innerHTML = session.government;
+    currCountry.querySelector("#religion").innerHTML = session.religion;
+    currCountry.querySelector("#religionImg").src = './images/religions/' + session.religion + '.png';
+    currCountry.querySelector("#dev").innerHTML = session.dev.toString() + ' (' + (session.devRank === 1 ? '1er)' : (session.devRank + 'ième)'));
+    currCountry.querySelector("#income").innerHTML = session.income.toString() + ' (' + (session.incomeRank === 1 ? '1er)' : (session.incomeRank + 'ième)'));
+    currCountry.querySelector("#manpower").innerHTML = session.manpower.toString() + ' (' + (session.manpowerRank === 1 ? '1er)' : (session.manpowerRank + 'ième)'));
+    currCountry.querySelector("#forceLimit").innerHTML = session.forceLimit.toString() + ' (' + (session.forceLimitRank === 1 ? '1er)' : (session.forceLimitRank + 'ième)'));
+    currCountry.querySelector("#nbProv").innerHTML = session.nbProv.toString() + ' (' + (session.nbProvRank === 1 ? '1er)' : (session.nbProvRank + 'ième)'));
+    currCountry.querySelector("#losses").innerHTML = session.losses.toString() + ' (' + (session.lossesRank === 1 ? '1er)' : (session.lossesRank + 'ième)'));
+    currCountry.querySelector("#loan").innerHTML = session.loan.toString() + ' (' + (session.loanRank === 1 ? '1er)' : (session.loanRank + 'ième)'));
+    currCountry.querySelector("#professionalism").innerHTML = session.professionalism + '%' + ' (' + (session.professionalismRank === 1 ? '1er)' : (session.professionalismRank + 'ième)'));
+    currCountry.querySelector("#innovativeness").innerHTML = session.innovativeness + '%' + ' (' + (session.innovativenessRank === 1 ? '1er)' : (session.innovativenessRank + 'ième)'));
 
     currCountry.querySelector("#feudalism").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.feudalism ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.feudalism ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#renaissance").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.renaissance ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.renaissance ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#colonialism").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.colonialism ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.colonialism ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#printingPress").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.printingPress ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.printingPress ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#globalTrade").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.globalTrade ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.globalTrade ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#manufactories").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.manufactories ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.manufactories ? 'institutionEmbraced' : 'institutionNotEmbraced');
     currCountry.querySelector("#enlightenment").classList.replace('institutionNotEmbraced',
-        data.players[i].sessions[data.players[i].sessions.length - 1].institutions.enlightenment ? 'institutionEmbraced' : 'institutionNotEmbraced');
+        session.institutions.enlightenment ? 'institutionEmbraced' : 'institutionNotEmbraced');
 
     if(data.players[i].sessions.length < data.nbSessions) {
         currCountry.classList.add("deadCountry");
