@@ -213,10 +213,11 @@ a:-webkit-any-link {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font: 16px/24px Roboto,sans-serif;
     border: 0;
     margin: 0;
     height: 52px;
-    width: 110px;
+    width: 120px;
     background-color: #3c5a6e !important;
 }
 
@@ -238,4 +239,15 @@ a:-webkit-any-link {
 
 .institutionNotEmbraced {
     display: none;
+}
+
+.countryPlatePlayer {
+    float: right;
+    width: 330px;
+    margin-right: 10px;
+}
+
+.playerSelect {
+    min-width: 160px;
+    width: auto;
 }
