@@ -220,12 +220,12 @@ let drawSession = function (num) {
                 let previousSessionStats =  player.sessions[num - 2];
 
                 dataGeneral.addRow([player.pseudo, sessionStats.dev, sessionStats.income, sessionStats.manpower, sessionStats.forceLimit, sessionStats.nbProv, sessionStats.losses, sessionStats.loan, sessionStats.professionalism]);
-                dataDev.addRow([player.pseudo, sessionStats.dev, (sessionStats.devEvol >= 0 ? '+' : '') + sessionStats.devEvol + '%' , previousSessionStats.dev]);
-                dataIncome.addRow([player.pseudo, sessionStats.income, (sessionStats.incomeEvol >= 0 ? '+' : '') + sessionStats.incomeEvol + '%' , previousSessionStats.income]);
-                dataManpower.addRow([player.pseudo, sessionStats.manpower, (sessionStats.manpowerEvol >= 0 ? '+' : '') + sessionStats.manpowerEvol + '%' , previousSessionStats.manpower]);
-                dataForceLimit.addRow([player.pseudo, sessionStats.forceLimit, (sessionStats.forceLimitEvol >= 0 ? '+' : '') + sessionStats.forceLimitEvol + '%' , previousSessionStats.forceLimit]);
+                dataDev.addRow([player.pseudo, sessionStats.dev, (sessionStats.devEvol >= 0 ? '+' : '') + sessionStats.devEvol + '%', previousSessionStats.dev]);
+                dataIncome.addRow([player.pseudo, sessionStats.income, (sessionStats.incomeEvol >= 0 ? '+' : '') + sessionStats.incomeEvol + '%', previousSessionStats.income]);
+                dataManpower.addRow([player.pseudo, sessionStats.manpower, (sessionStats.manpowerEvol >= 0 ? '+' : '') + sessionStats.manpowerEvol + '%', previousSessionStats.manpower]);
+                dataForceLimit.addRow([player.pseudo, sessionStats.forceLimit, (sessionStats.forceLimitEvol >= 0 ? '+' : '') + sessionStats.forceLimitEvol + '%', previousSessionStats.forceLimit]);
                 dataNbProvinces.addRow([player.pseudo, sessionStats.nbProv, (sessionStats.nbProvEvol >= 0 ? '+' : '') + sessionStats.nbProvEvol , previousSessionStats.nbProv]);
-                dataLosses.addRow([player.pseudo, sessionStats.losses, (sessionStats.lossesEvol >= 0 ? '+' : '') + sessionStats.lossesEvol , previousSessionStats.losses]);
+                dataLosses.addRow([player.pseudo, sessionStats.losses, (sessionStats.lossesEvol >= 0 ? '+' : '') + sessionStats.lossesEvol + '%', previousSessionStats.losses]);
                 dataProfessionalism.addRow([player.pseudo, sessionStats.professionalism, (sessionStats.professionalismEvol >= 0 ? '+' : '') + sessionStats.professionalismEvol.toPrecision(sessionStats.professionalismEvol.toString().indexOf('.') >= 0 ? sessionStats.professionalismEvol.toString().indexOf('.') : sessionStats.professionalismEvol.toString().length) , previousSessionStats.professionalism]);
             }
 
