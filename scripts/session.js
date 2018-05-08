@@ -1,6 +1,7 @@
 let titleDiv;
 let mapRef;
 let mapImg;
+let saveFileRef;
 
 let dashboardGeneral;
 let chartDev;
@@ -33,6 +34,7 @@ let init = function () {
     titleDiv = document.getElementById('title');
     mapRef = document.getElementById('mapRef');
     mapImg = document.getElementById('mapImg');
+    saveFileRef = document.getElementById('saveFile');
 
     let dashboardGeneralDiv = document.getElementById('dashboard-General');
     let chartDevDiv = document.getElementById('chart-Dev');
@@ -244,6 +246,7 @@ let drawSession = function (num) {
     titleDiv.innerText = 'Session ' + num;
     mapRef.href = './images/sessions/session' + num + '.jpg';
     mapImg.src = './images/sessions/session' + num + '.jpg';
+    saveFileRef.href = './saves/session' + num + '.eu4';
 
     dashboardGeneral.draw(dataGeneral);
     chartDev.draw(dataDev, options);
