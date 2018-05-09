@@ -56,7 +56,7 @@ let addTimeLine = function () {
     sessionsTimeLinesTable.addColumn({type: 'date', id: 'Start'});
     sessionsTimeLinesTable.addColumn({type: 'date', id: 'End'});
 
-    sessionsTimeLinesTable.addRow(['Session', 'Session 1', new Date(1444, 11, 11), new Date(data.sessions[0].startDate)]);
+    sessionsTimeLinesTable.addRow(['Session', 'Session 1', new Date(1444, 10, 11), new Date(data.sessions[0].startDate)]);
 
     for (let i = 1; i < data.sessions.length; i++) {
         sessionsTimeLinesTable.addRow(['Session', 'Session ' + (i + 1), new Date(data.sessions[i - 1].startDate), new Date(data.sessions[i].startDate)]);

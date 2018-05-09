@@ -4,40 +4,40 @@ const data =
   "nbSessions": 6,
   "sessions": [
     {
-      "startDate": "1464-02-02",
+      "startDate": "1464-01-02",
       "totalDev": 6342,
       "totalLosses": 1413235
     },
     {
-      "startDate": "1485-02-01",
+      "startDate": "1485-01-01",
       "totalDev": 8932,
       "totalLosses": 3298296,
       "totalDevEvol": 41,
       "totalLossesEvol": 133
     },
     {
-      "startDate": "1506-02-02",
+      "startDate": "1506-01-02",
       "totalDev": 10785,
       "totalLosses": 4533000,
       "totalDevEvol": 21,
       "totalLossesEvol": 37
     },
     {
-      "startDate": "1527-02-01",
+      "startDate": "1527-01-01",
       "totalDev": 13234,
       "totalLosses": 6777991,
       "totalDevEvol": 23,
       "totalLossesEvol": 50
     },
     {
-      "startDate": "1549-02-19",
+      "startDate": "1549-01-19",
       "totalDev": 14673,
       "totalLosses": 8918692,
       "totalDevEvol": 11,
       "totalLossesEvol": 32
     },
     {
-      "startDate": "1570-02-01",
+      "startDate": "1570-01-01",
       "totalDev": 16121,
       "totalLosses": 9783557,
       "totalDevEvol": 10,

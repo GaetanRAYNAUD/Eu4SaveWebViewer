@@ -137,7 +137,7 @@ let addTagsTimeLine = function (num) {
 
     lastChange.push(0);
 
-    dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 11, 11), new Date(data.sessions[0].startDate)]);
+    dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 10, 11), new Date(data.sessions[0].startDate)]);
 
     for (let i = 1; i < data.sessions.length; i++) {
         if (data.players[num].sessions[i].country !== data.players[num].sessions[i - 1].country) {
@@ -148,18 +148,18 @@ let addTagsTimeLine = function (num) {
         } else {
             if (numChange === 0) {
                 dataTagsTimeLines.removeRows(0, 1);
-                dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 11, 11), new Date(data.sessions[i].startDate)]);
+                dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 10, 11), new Date(data.sessions[i].startDate)]);
 
             } else if (numChange === 1) {
                 dataTagsTimeLines.removeRows(0, 2);
                 dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country,
-                    new Date(1444, 11, 11), new Date(data.sessions[lastChange[lastChange.length - 1]].startDate)]);
+                    new Date(1444, 10, 11), new Date(data.sessions[lastChange[lastChange.length - 1]].startDate)]);
                 dataTagsTimeLines.addRow([data.players[num].sessions[i].country, data.players[num].sessions[i].country, new Date(data.sessions[lastChange[lastChange.length - 1]].startDate),
                     new Date(data.sessions[i].startDate)]);
             } else {
                 dataTagsTimeLines.removeRows(0, dataTagsTimeLines.getNumberOfRows());
                 dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country,
-                    new Date(1444, 11, 11), new Date(data.sessions[lastChange[1]].startDate)]);
+                    new Date(1444, 10, 11), new Date(data.sessions[lastChange[1]].startDate)]);
 
                 for(let j = 1; j < numChange; j++) {
                     dataTagsTimeLines.addRow([data.players[num].sessions[lastChange[j]].country, data.players[num].sessions[lastChange[j]].country,
