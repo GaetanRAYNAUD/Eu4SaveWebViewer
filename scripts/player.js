@@ -1,5 +1,6 @@
 let countryPlate;
 
+let chartTagsTimeLine;
 let chartRank;
 let chartDev;
 let chartIncome;
@@ -9,6 +10,7 @@ let chartNbProvinces;
 let chartLosses;
 let chartProfessionalism;
 
+let dataTagsTimeLines;
 let dataRank;
 let dataDev;
 let dataIncome;
@@ -19,7 +21,7 @@ let dataLosses;
 let dataProfessionalism;
 
 window.onload = function () {
-    google.charts.load('current', {'packages': ['corechart', 'bar', 'table', 'line']});
+    google.charts.load('current', {'packages': ['corechart', 'bar', 'table', 'line', 'timeline']});
     google.charts.setOnLoadCallback(init);
 };
 
@@ -28,6 +30,7 @@ let init = function () {
 
     fillListPlayers();
 
+    let chartTagsTimeLinesDiv = document.getElementById('tagsTimeLines');
     let chartRankDiv = document.getElementById('chart-Rank');
     let chartDevDiv = document.getElementById('chart-Dev');
     let chartIncomeDiv = document.getElementById('chart-Income');
@@ -37,6 +40,7 @@ let init = function () {
     let chartLossesDiv = document.getElementById('chart-Losses');
     let chartProfessionalismDiv = document.getElementById('chart-Professionalism');
 
+    chartTagsTimeLine = new google.visualization.Timeline(chartTagsTimeLinesDiv);
     chartRank = new google.visualization.LineChart(chartRankDiv);
     chartDev = new google.visualization.ColumnChart(chartDevDiv);
     chartIncome = new google.visualization.ColumnChart(chartIncomeDiv);
@@ -46,6 +50,7 @@ let init = function () {
     chartLosses = new google.visualization.ColumnChart(chartLossesDiv);
     chartProfessionalism = new google.visualization.ColumnChart(chartProfessionalismDiv);
 
+    dataTagsTimeLines = new google.visualization.DataTable();
     dataRank = new google.visualization.DataTable();
     dataDev = new google.visualization.DataTable();
     dataIncome = new google.visualization.DataTable();
@@ -54,6 +59,11 @@ let init = function () {
     dataNbProvinces = new google.visualization.DataTable();
     dataLosses = new google.visualization.DataTable();
     dataProfessionalism = new google.visualization.DataTable();
+
+    dataTagsTimeLines.addColumn({type: 'string', id: 'Count'});
+    dataTagsTimeLines.addColumn({type: 'string', id: 'Session'});
+    dataTagsTimeLines.addColumn({type: 'date', id: 'Start'});
+    dataTagsTimeLines.addColumn({type: 'date', id: 'End'});
 
     dataRank.addColumn('string', 'Sessions');
     dataRank.addColumn('number', 'Classement développement');
@@ -97,6 +107,7 @@ let init = function () {
 };
 
 let cleanTables = function () {
+    dataTagsTimeLines.removeRows(0, dataTagsTimeLines.getNumberOfRows());
     dataRank.removeRows(0, dataRank.getNumberOfRows());
     dataDev.removeRows(0, dataDev.getNumberOfRows());
     dataIncome.removeRows(0, dataIncome.getNumberOfRows());
@@ -120,6 +131,58 @@ let fillListPlayers = function () {
     });
 };
 
+let addTagsTimeLine = function (num) {
+    let lastChange = [];
+    let numChange = 0;
+
+    lastChange.push(0);
+
+    dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 11, 11), new Date(data.sessions[0].startDate)]);
+
+    for (let i = 1; i < data.sessions.length; i++) {
+        if (data.players[num].sessions[i].country !== data.players[num].sessions[i - 1].country) {
+            console.log(data.players[num].sessions[i].country);
+            lastChange.push(i);
+            numChange++;
+            dataTagsTimeLines.addRow([data.players[num].sessions[i].country, data.players[num].sessions[i].country, new Date(data.sessions[i - 1].startDate), new Date(data.sessions[i].startDate)]);
+        } else {
+            if (numChange === 0) {
+                dataTagsTimeLines.removeRows(0, 1);
+                dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 11, 11), new Date(data.sessions[i].startDate)]);
+
+            } else if (numChange === 1) {
+                dataTagsTimeLines.removeRows(0, 2);
+                dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country,
+                    new Date(1444, 11, 11), new Date(data.sessions[lastChange[lastChange.length - 1]].startDate)]);
+                dataTagsTimeLines.addRow([data.players[num].sessions[i].country, data.players[num].sessions[i].country, new Date(data.sessions[lastChange[lastChange.length - 1]].startDate),
+                    new Date(data.sessions[i].startDate)]);
+            } else {
+                dataTagsTimeLines.removeRows(0, dataTagsTimeLines.getNumberOfRows());
+                dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country,
+                    new Date(1444, 11, 11), new Date(data.sessions[lastChange[1]].startDate)]);
+
+                for(let j = 1; j < numChange; j++) {
+                    dataTagsTimeLines.addRow([data.players[num].sessions[lastChange[j]].country, data.players[num].sessions[lastChange[j]].country,
+                        new Date(data.sessions[lastChange[j]].startDate),
+                        new Date(data.sessions[lastChange[j + 1]].startDate)]);
+                }
+
+                dataTagsTimeLines.addRow([data.players[num].sessions[data.players[num].sessions.length - 1].country, data.players[num].sessions[data.players[num].sessions.length - 1].country,
+                    new Date(data.sessions[lastChange[lastChange.length - 1]].startDate),
+                    new Date(data.sessions[data.players[num].sessions.length - 1].startDate)]);
+            }
+        }
+    }
+
+    let options = {
+        timeline: {
+            showRowLabels: false
+        }
+    };
+
+    chartTagsTimeLine.draw(dataTagsTimeLines, options);
+};
+
 let changePlayer = function (num) {
     countryPlate.classList.remove("deadCountry");
 
@@ -130,6 +193,8 @@ let changePlayer = function (num) {
     fillCountry(countryPlate, num);
 
     cleanTables();
+
+    addTagsTimeLine(num);
 
     let i = 0;
 

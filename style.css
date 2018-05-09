@@ -251,3 +251,10 @@ a:-webkit-any-link {
     min-width: 160px;
     width: auto;
 }
+
+.tagsTimeLine {
+/*    width: 75%;*/
+    margin-left: 2.5%;
+    margin-right: 430px;
+    font-weight: bold;
+}
