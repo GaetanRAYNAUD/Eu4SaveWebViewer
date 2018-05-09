@@ -68,6 +68,7 @@ let fillCountry = function (currCountry, i) {
         let deadCountryText = document.createElement("div");
         deadCountryText.innerHTML = 'Mort session ' + (data.players[i].sessions.length + 1);
         deadCountryText.classList.add("deadCountryText");
+        deadCountryText.id = 'deadCountryText';
         currCountry.appendChild(deadCountryText);
     }
 };

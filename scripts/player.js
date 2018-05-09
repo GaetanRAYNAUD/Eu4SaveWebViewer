@@ -23,5 +23,11 @@ let fillListPlayers = function () {
 };
 
 let changePlayer = function (num) {
+    countryPlate.classList.remove("deadCountry");
+
+    if(document.getElementById("deadCountryText")) {
+        document.getElementById("deadCountryText").remove();
+    }
+
     fillCountry(countryPlate, num);
 };
