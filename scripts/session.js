@@ -23,7 +23,6 @@ let dataProfessionalism;
 
 let stringFilterGeneral;
 let chartGeneral;
-let options;
 
 window.onload = function () {
     google.charts.load('current', {'packages': ['corechart', 'bar', 'table', 'controls']});
@@ -105,25 +104,6 @@ let init = function () {
         }
     }
     );
-
-    options = {
-        "legend": {
-            "position": "top"
-        },
-        "theme": "material",
-        "chartArea": {
-            "left": 50,
-            "top": 50,
-            "width": "95%",
-            "height": "85%"
-        },
-        "vAxis": {
-            "format": "decimal",
-            "minorGridlines": {
-                "count": 4
-            }
-        }
-    };
 
     drawSession(data.nbSessions);
 };
