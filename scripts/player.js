@@ -155,7 +155,7 @@ let addTagsTimeLine = function (num) {
 
     dataTagsTimeLines.addRow([data.players[num].sessions[0].country, data.players[num].sessions[0].country, new Date(1444, 10, 11), new Date(data.sessions[0].startDate)]);
 
-    for (let i = 1; i < data.sessions.length; i++) {
+    for (let i = 1; i < data.nbSessions; i++) {
         if (data.players[num].sessions[i].country !== data.players[num].sessions[i - 1].country) {
             console.log(data.players[num].sessions[i].country);
             lastChange.push(i);
