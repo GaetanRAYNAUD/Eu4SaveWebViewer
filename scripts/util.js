@@ -34,7 +34,7 @@ let fillCountry = function (currCountry, i) {
     currCountry.querySelector("#enlightenment").classList.replace('institutionNotEmbraced',
         session.institutions.enlightenment ? 'institutionEmbraced' : 'institutionNotEmbraced');
 
-    if(data.players[i].sessions.length < data.nbSessions) {
+    if (data.players[i].sessions.length < data.nbSessions) {
         currCountry.classList.add("deadCountry");
 
         let deadCountryText = document.createElement("div");
@@ -84,5 +84,17 @@ let optionsLine = {
         minorGridlines: {
             count: 4
         }
+    }
+};
+
+let optionsTable = {
+    alternatingRowStyle: true,
+    width: '79%',
+    allowHtml: true,
+    cssClassNames: {
+        tableRow: 'tableRow',
+        oddTableRow: 'tableRow',
+        tableCell: 'tableCell',
+        headerCell: 'tableHeader'
     }
 };

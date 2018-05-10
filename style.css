@@ -45,7 +45,7 @@ body {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
-th.tableHeader.google-visualization-table-type-number.sort-descending > span.google-visualization-table-sortind,  th.tableHeader.google-visualization-table-type-number.sort-ascending > span.google-visualization-table-sortind {
+th.tableHeader.sort-descending > span, th.tableHeader.sort-ascending > span {
     border: 0;
 }
 
@@ -253,7 +253,6 @@ a:-webkit-any-link {
 }
 
 .tagsTimeLine {
-/*    width: 75%;*/
     margin-left: 2.5%;
     margin-right: 430px;
     font-weight: bold;

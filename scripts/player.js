@@ -1,6 +1,7 @@
 let countryPlate;
 
 let chartTagsTimeLine;
+let chartStats;
 let chartRank;
 let chartDev;
 let chartIncome;
@@ -11,6 +12,7 @@ let chartLosses;
 let chartProfessionalism;
 
 let dataTagsTimeLines;
+let dataStats;
 let dataRank;
 let dataDev;
 let dataIncome;
@@ -31,6 +33,7 @@ let init = function () {
     fillListPlayers();
 
     let chartTagsTimeLinesDiv = document.getElementById('tagsTimeLines');
+    let chartStatsDiv = document.getElementById('chart-Stats');
     let chartRankDiv = document.getElementById('chart-Rank');
     let chartDevDiv = document.getElementById('chart-Dev');
     let chartIncomeDiv = document.getElementById('chart-Income');
@@ -41,6 +44,7 @@ let init = function () {
     let chartProfessionalismDiv = document.getElementById('chart-Professionalism');
 
     chartTagsTimeLine = new google.visualization.Timeline(chartTagsTimeLinesDiv);
+    chartStats = new google.visualization.Table(chartStatsDiv);
     chartRank = new google.visualization.LineChart(chartRankDiv);
     chartDev = new google.visualization.ColumnChart(chartDevDiv);
     chartIncome = new google.visualization.ColumnChart(chartIncomeDiv);
@@ -51,6 +55,7 @@ let init = function () {
     chartProfessionalism = new google.visualization.ColumnChart(chartProfessionalismDiv);
 
     dataTagsTimeLines = new google.visualization.DataTable();
+    dataStats = new google.visualization.DataTable();
     dataRank = new google.visualization.DataTable();
     dataDev = new google.visualization.DataTable();
     dataIncome = new google.visualization.DataTable();
@@ -64,6 +69,16 @@ let init = function () {
     dataTagsTimeLines.addColumn({type: 'string', id: 'Session'});
     dataTagsTimeLines.addColumn({type: 'date', id: 'Start'});
     dataTagsTimeLines.addColumn({type: 'date', id: 'End'});
+
+    dataStats.addColumn('string', 'Sessions');
+    dataStats.addColumn('number', 'Developpement');
+    dataStats.addColumn('number', 'Revenu');
+    dataStats.addColumn('number', 'Reserve militaire');
+    dataStats.addColumn('number', 'Limite terrestre');
+    dataStats.addColumn('number', 'Nombre de provinces');
+    dataStats.addColumn('number', 'Pertes');
+    dataStats.addColumn('number', 'Emprun');
+    dataStats.addColumn('number', 'Professionnalisme');
 
     dataRank.addColumn('string', 'Sessions');
     dataRank.addColumn('number', 'Classement développement');
@@ -108,6 +123,7 @@ let init = function () {
 
 let cleanTables = function () {
     dataTagsTimeLines.removeRows(0, dataTagsTimeLines.getNumberOfRows());
+    dataStats.removeRows(0, dataStats.getNumberOfRows());
     dataRank.removeRows(0, dataRank.getNumberOfRows());
     dataDev.removeRows(0, dataDev.getNumberOfRows());
     dataIncome.removeRows(0, dataIncome.getNumberOfRows());
@@ -199,18 +215,27 @@ let changePlayer = function (num) {
     let i = 0;
 
     data.players[num].sessions.forEach((session) => {
+        dataStats.addRow(['Session ' + (i + 1), session.dev, session.income, session.manpower, session.forceLimit, session.nbProv, session.losses, session.loan, session.professionalism]);
         dataRank.addRow(['Session ' + (i + 1), session.devRank, session.devRank, session.incomeRank, session.incomeRank, session.manpowerRank, session.manpowerRank, session.forceLimitRank, session.forceLimitRank]);
-        dataDev.addRow(['Session ' + (i + 1), session.dev, session.devEvol !== undefined ? ((session.devEvol >= 0 ? '+' : '') + session.devEvol + '%') : '']);
-        dataIncome.addRow(['Session ' + (i + 1), session.income, session.incomeEvol !== undefined ? ((session.incomeEvol >= 0 ? '+' : '') + session.incomeEvol + '%') : '']);
-        dataManpower.addRow(['Session ' + (i + 1), session.manpower, session.manpowerEvol !== undefined ? ((session.manpowerEvol >= 0 ? '+' : '') + session.manpowerEvol + '%') : '']);
-        dataForceLimit.addRow(['Session ' + (i + 1), session.forceLimit, session.forceLimitEvol !== undefined ? ((session.forceLimitEvol >= 0 ? '+' : '') + session.forceLimitEvol + '%') : '']);
-        dataNbProvinces.addRow(['Session ' + (i + 1), session.nbProv, session.nbProvEvol !== undefined ? ((session.nbProvEvol >= 0 ? '+' : '') + session.nbProvEvol) : '']);
-        dataLosses.addRow(['Session ' + (i + 1), session.losses, session.lossesEvol !== undefined ? ((session.lossesEvol >= 0 ? '+' : '') + session.lossesEvol + '%') : '']);
-        dataProfessionalism.addRow(['Session ' + (i + 1), session.professionalism, session.professionalismEvol !== undefined ? ((session.professionalismEvol >= 0 ? '+' : '') + session.professionalismEvol) : '']);
+        dataDev.addRow(['Session ' + (i + 1), session.dev,
+            session.devEvol !== undefined ? (session.dev + ' (' + (session.devEvol >= 0 ? '+' : '') + session.devEvol + '%)') : session.dev.toString()]);
+        dataIncome.addRow(['Session ' + (i + 1), session.income,
+            session.incomeEvol !== undefined ? (session.income + ' (' + (session.incomeEvol >= 0 ? '+' : '') + session.incomeEvol + '%)') : session.income.toString()]);
+        dataManpower.addRow(['Session ' + (i + 1), session.manpower,
+            session.manpowerEvol !== undefined ? (session.manpower + ' (' + (session.manpowerEvol >= 0 ? '+' : '') + session.manpowerEvol + '%)') : session.manpower.toString()]);
+        dataForceLimit.addRow(['Session ' + (i + 1), session.forceLimit,
+            session.forceLimitEvol !== undefined ? (session.forceLimit + ' (' + (session.forceLimitEvol >= 0 ? '+' : '') + session.forceLimitEvol + '%)') : session.forceLimit.toString()]);
+        dataNbProvinces.addRow(['Session ' + (i + 1), session.nbProv,
+            session.nbProvEvol !== undefined ? (session.nbProv + ' (' + (session.nbProvEvol >= 0 ? '+' : '') + session.nbProvEvol + ')') : session.nbProv.toString()]);
+        dataLosses.addRow(['Session ' + (i + 1), session.losses,
+            session.lossesEvol !== undefined ? (session.losses + ' (' + (session.lossesEvol >= 0 ? '+' : '') + session.lossesEvol + '%)') : session.losses.toString()]);
+        dataProfessionalism.addRow(['Session ' + (i + 1), session.professionalism,
+            session.professionalismEvol !== undefined ? (session.professionalism + ' (' + (session.professionalismEvol >= 0 ? '+' : '') + session.professionalismEvol + ')') : session.professionalism.toString()]);
         i++;
     });
 
     chartRank.draw(dataRank, optionsLine);
+    chartStats.draw(dataStats, optionsTable);
     chartDev.draw(dataDev, options);
     chartIncome.draw(dataIncome, options);
     chartManpower.draw(dataManpower, options);
