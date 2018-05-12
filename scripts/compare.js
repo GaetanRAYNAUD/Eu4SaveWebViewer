@@ -55,6 +55,7 @@ let getResultCompareDiv = function () {
 
     resultCompareDiv.innerHTML = '<div class="heading headingCompare">'
         + '<span class="team1 resultHeading">Équipe 1</span>'
+        + '<span class="vs resultHeading">VS</span>'
         + '<span class="team2 resultHeading">Équipe 2</span>'
         + '</div>'
         + '<div class="stat">'
@@ -164,22 +165,22 @@ let getCountryPlateCompareDiv = function () {
 let fillCountryCompare = function (countryDiv, player) {
     let session = data.players[player].sessions[data.players[player].sessions.length - 1];
 
-    countryDiv.querySelector("#rank").src = './images/government_ranks/' + session.rank + '.png';
-    countryDiv.querySelector("#pseudo").innerHTML = data.players[player].pseudo + ' (' + data.players[player].sessions[data.nbSessions - 1].country + ')';
-    countryDiv.querySelector("#dev").innerHTML = session.dev.toString() + ' (' + (session.devRank === 1 ? '1er)' : (session.devRank + 'ième)'));
-    countryDiv.querySelector("#income").innerHTML = session.income.toString() + ' (' + (session.incomeRank === 1 ? '1er)' : (session.incomeRank + 'ième)'));
-    countryDiv.querySelector("#manpower").innerHTML = session.manpower.toString() + ' (' + (session.manpowerRank === 1 ? '1er)' : (session.manpowerRank + 'ième)'));
-    countryDiv.querySelector("#forceLimit").innerHTML = session.forceLimit.toString() + ' (' + (session.forceLimitRank === 1 ? '1er)' : (session.forceLimitRank + 'ième)'));
-    countryDiv.querySelector("#nbProv").innerHTML = session.nbProv.toString() + ' (' + (session.nbProvRank === 1 ? '1er)' : (session.nbProvRank + 'ième)'));
-    countryDiv.querySelector("#losses").innerHTML = session.losses.toString() + ' (' + (session.lossesRank === 1 ? '1er)' : (session.lossesRank + 'ième)'));
-    countryDiv.querySelector("#professionalism").innerHTML = session.professionalism + '%' + ' (' + (session.professionalismRank === 1 ? '1er)' : (session.professionalismRank + 'ième)'));
+    countryDiv.querySelector('#rank').src = './images/government_ranks/' + session.rank + '.png';
+    countryDiv.querySelector('#pseudo').innerHTML = data.players[player].pseudo + ' (' + data.players[player].sessions[data.nbSessions - 1].country + ')';
+    countryDiv.querySelector('#dev').innerHTML = session.dev.toString() + ' (' + (session.devRank === 1 ? '1er)' : (session.devRank + 'ième)'));
+    countryDiv.querySelector('#income').innerHTML = session.income.toString() + ' (' + (session.incomeRank === 1 ? '1er)' : (session.incomeRank + 'ième)'));
+    countryDiv.querySelector('#manpower').innerHTML = session.manpower.toString() + ' (' + (session.manpowerRank === 1 ? '1er)' : (session.manpowerRank + 'ième)'));
+    countryDiv.querySelector('#forceLimit').innerHTML = session.forceLimit.toString() + ' (' + (session.forceLimitRank === 1 ? '1er)' : (session.forceLimitRank + 'ième)'));
+    countryDiv.querySelector('#nbProv').innerHTML = session.nbProv.toString() + ' (' + (session.nbProvRank === 1 ? '1er)' : (session.nbProvRank + 'ième)'));
+    countryDiv.querySelector('#losses').innerHTML = session.losses.toString() + ' (' + (session.lossesRank === 1 ? '1er)' : (session.lossesRank + 'ième)'));
+    countryDiv.querySelector('#professionalism').innerHTML = session.professionalism + '%' + ' (' + (session.professionalismRank === 1 ? '1er)' : (session.professionalismRank + 'ième)'));
 
     if (data.players[player].sessions.length < data.nbSessions) {
         countryDiv.classList.add("deadCountry");
 
-        let deadCountryText = document.createElement("div");
+        let deadCountryText = document.createElement('div');
         deadCountryText.innerHTML = 'Mort session ' + (data.players[player].sessions.length + 1);
-        deadCountryText.classList.add("deadCountryText");
+        deadCountryText.classList.add('deadCountryText');
         deadCountryText.id = 'deadCountryText';
         countryDiv.appendChild(deadCountryText);
     }
@@ -194,21 +195,149 @@ let displayResult = function () {
 let fillResult = function () {
     let resultDiv = document.getElementById('result');
 
-    resultDiv.querySelector("#devTeam1").innerHTML = teams.teams[0].totalDev;
-    resultDiv.querySelector("#incomeTeam1").innerHTML = teams.teams[0].totalIncome;
-    resultDiv.querySelector("#manpowerTeam1").innerHTML = teams.teams[0].totalManpower;
-    resultDiv.querySelector("#forceLimitTeam1").innerHTML = teams.teams[0].totalForceLimit;
-    resultDiv.querySelector("#nbProvTeam1").innerHTML = teams.teams[0].totalNbProv;
-    resultDiv.querySelector("#lossesTeam1").innerHTML = teams.teams[0].totalLosses;
-    resultDiv.querySelector("#professionalismTeam1").innerHTML = teams.teams[0].totalProfessionalism;
+    resultDiv.querySelector('#incomeTeam1').innerHTML = teams.teams[0].totalIncome;
+    resultDiv.querySelector('#manpowerTeam1').innerHTML = teams.teams[0].totalManpower;
+    resultDiv.querySelector('#forceLimitTeam1').innerHTML = teams.teams[0].totalForceLimit;
+    resultDiv.querySelector('#nbProvTeam1').innerHTML = teams.teams[0].totalNbProv;
+    resultDiv.querySelector('#lossesTeam1').innerHTML = teams.teams[0].totalLosses;
+    resultDiv.querySelector('#professionalismTeam1').innerHTML = teams.teams[0].totalProfessionalism;
 
-    resultDiv.querySelector("#devTeam2").innerHTML = teams.teams[1].totalDev;
-    resultDiv.querySelector("#incomeTeam2").innerHTML = teams.teams[1].totalIncome;
-    resultDiv.querySelector("#manpowerTeam2").innerHTML = teams.teams[1].totalManpower;
-    resultDiv.querySelector("#forceLimitTeam2").innerHTML = teams.teams[1].totalForceLimit;
-    resultDiv.querySelector("#nbProvTeam2").innerHTML = teams.teams[1].totalNbProv;
-    resultDiv.querySelector("#lossesTeam2").innerHTML = teams.teams[1].totalLosses;
-    resultDiv.querySelector("#professionalismTeam2").innerHTML = teams.teams[1].totalProfessionalism;
+    resultDiv.querySelector('#incomeTeam2').innerHTML = teams.teams[1].totalIncome;
+    resultDiv.querySelector('#manpowerTeam2').innerHTML = teams.teams[1].totalManpower;
+    resultDiv.querySelector('#forceLimitTeam2').innerHTML = teams.teams[1].totalForceLimit;
+    resultDiv.querySelector('#nbProvTeam2').innerHTML = teams.teams[1].totalNbProv;
+    resultDiv.querySelector('#lossesTeam2').innerHTML = teams.teams[1].totalLosses;
+    resultDiv.querySelector('#professionalismTeam2').innerHTML = teams.teams[1].totalProfessionalism;
+
+
+    if(teams.teams[0].totalDev > teams.teams[1].totalDev) {
+        let percent = ((teams.teams[0].totalDev / teams.teams[1].totalDev) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#devTeam1').innerHTML = teams.teams[0].totalDev + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#devTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#devTeam2').innerHTML = teams.teams[1].totalDev;
+
+    } else {
+        let percent = ((teams.teams[1].totalDev / teams.teams[0].totalDev) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#devTeam2').innerHTML = teams.teams[1].totalDev + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#devTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#devTeam1').innerHTML = teams.teams[0].totalDev;
+    }
+
+    if(teams.teams[0].totalIncome > teams.teams[1].totalIncome) {
+        let percent = ((teams.teams[0].totalIncome / teams.teams[1].totalIncome) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#incomeTeam1').innerHTML = teams.teams[0].totalIncome + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#incomeTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#incomeTeam2').innerHTML = teams.teams[1].totalIncome;
+
+    } else {
+        let percent = ((teams.teams[1].totalIncome / teams.teams[0].totalIncome) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#incomeTeam2').innerHTML = teams.teams[1].totalIncome + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#incomeTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#incomeTeam1').innerHTML = teams.teams[0].totalIncome;
+    }
+
+    if(teams.teams[0].totalManpower > teams.teams[1].totalManpower) {
+        let percent = ((teams.teams[0].totalManpower / teams.teams[1].totalManpower) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#manpowerTeam1').innerHTML = teams.teams[0].totalManpower + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#manpowerTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#manpowerTeam2').innerHTML = teams.teams[1].totalManpower;
+
+    } else {
+        let percent = ((teams.teams[1].totalManpower / teams.teams[0].totalManpower) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#manpowerTeam2').innerHTML = teams.teams[1].totalManpower + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#manpowerTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#manpowerTeam1').innerHTML = teams.teams[0].totalManpower;
+    }
+
+    if(teams.teams[0].totalForceLimit > teams.teams[1].totalForceLimit) {
+        let percent = ((teams.teams[0].totalForceLimit / teams.teams[1].totalForceLimit) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#forceLimitTeam1').innerHTML = teams.teams[0].totalForceLimit + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#forceLimitTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#forceLimitTeam2').innerHTML = teams.teams[1].totalForceLimit;
+
+    } else {
+        let percent = ((teams.teams[1].totalForceLimit / teams.teams[0].totalForceLimit) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#forceLimitTeam2').innerHTML = teams.teams[1].totalForceLimit + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#forceLimitTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#forceLimitTeam1').innerHTML = teams.teams[0].totalForceLimit;
+    }
+
+    if(teams.teams[0].totalNbProv > teams.teams[1].totalNbProv) {
+        let percent = ((teams.teams[0].totalNbProv / teams.teams[1].totalNbProv) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#nbProvTeam1').innerHTML = teams.teams[0].totalNbProv + ' (+' + (teams.teams[0].totalNbProv - teams.teams[1].totalNbProv) + ')';
+
+        resultDiv.querySelector('#nbProvTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#nbProvTeam2').innerHTML = teams.teams[1].totalNbProv;
+
+    } else {
+        resultDiv.querySelector('#nbProvTeam2').innerHTML = teams.teams[1].totalNbProv + ' (+' + (teams.teams[1].totalNbProv - teams.teams[0].totalNbProv) + ')';
+
+        resultDiv.querySelector('#nbProvTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#nbProvTeam1').innerHTML = teams.teams[0].totalNbProv;
+    }
+
+    if(teams.teams[0].totalLosses > teams.teams[1].totalLosses) {
+        let percent = ((teams.teams[0].totalLosses / teams.teams[1].totalLosses) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#lossesTeam1').innerHTML = teams.teams[0].totalLosses + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#lossesTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#lossesTeam2').innerHTML = teams.teams[1].totalLosses;
+    } else {
+        let percent = ((teams.teams[1].totalLosses / teams.teams[0].totalLosses) - 1) * 100;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length);
+
+        resultDiv.querySelector('#lossesTeam2').innerHTML = teams.teams[1].totalLosses + ' (+' + percent + '%)';
+
+        resultDiv.querySelector('#lossesTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#lossesTeam1').innerHTML = teams.teams[0].totalLosses;
+    }
+
+    if(teams.teams[0].totalProfessionalism > teams.teams[1].totalProfessionalism) {
+        let percent = teams.teams[0].totalProfessionalism - teams.teams[1].totalProfessionalism;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length + 3);
+
+        resultDiv.querySelector('#professionalismTeam1').innerHTML = teams.teams[0].totalProfessionalism + ' (+' + percent + ')';
+
+        resultDiv.querySelector('#professionalismTeam2').classList.add('compareLose');
+        resultDiv.querySelector('#professionalismTeam2').innerHTML = teams.teams[1].totalProfessionalism;
+
+    } else {
+        let percent = teams.teams[1].totalProfessionalism - teams.teams[0].totalProfessionalism;
+        percent = percent.toPrecision(percent.toString().split('.')[0].length + 3);
+
+        resultDiv.querySelector('#professionalismTeam2').innerHTML = teams.teams[1].totalProfessionalism + ' (+' + percent + ')';
+
+        resultDiv.querySelector('#professionalismTeam1').classList.add('compareLose');
+        resultDiv.querySelector('#professionalismTeam1').innerHTML = teams.teams[0].totalProfessionalism;
+    }
 };
 
 let addPlayerToTeam = function (numTeam, numPlayer) {

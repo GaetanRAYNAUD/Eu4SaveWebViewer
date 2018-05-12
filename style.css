@@ -314,6 +314,11 @@ a:-webkit-any-link {
     top: 0px;
 }
 
+.result .vs {
+    text-align: center;
+    right: -2%;
+}
+
 .result img {
     position: absolute;
     right: 45%;
@@ -321,4 +326,12 @@ a:-webkit-any-link {
 
 .result .resultHeading {
     top: 8px;
+}
+
+.result .countryPlateCompare {
+    width: 50%;
+}
+
+.compareLose {
+    color: red;
 }
