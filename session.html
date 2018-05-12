@@ -22,13 +22,7 @@
       <li><a href="./player.html">Joueurs</a></li>
       <li><a id="saveFile" class="active" href="" download>Télécharger la sauvegarde</a></li>
 
-      <select class="sessionSelect active" onchange="changeSession(this.value)">
-        <option value="1">Session 1</option>
-        <option value="2">Session 2</option>
-        <option value="3">Session 3</option>
-        <option value="4">Session 4</option>
-        <option value="5">Session 5</option>
-        <option value="6" selected="selected">Session 6</option>
+      <select class="sessionSelect active" id="listSessions" onchange="changeSession(this.value)">
       </select>
     </ul>
 

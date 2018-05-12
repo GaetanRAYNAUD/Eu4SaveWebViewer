@@ -35,6 +35,8 @@ let init = function () {
     mapImg = document.getElementById('mapImg');
     saveFileRef = document.getElementById('saveFile');
 
+    fillListSessions();
+
     let dashboardGeneralDiv = document.getElementById('dashboard-General');
     let chartDevDiv = document.getElementById('chart-Dev');
     let chartIncomeDiv = document.getElementById('chart-Income');
@@ -130,6 +132,23 @@ let cleanTables = function () {
     dataNbProvinces.removeColumns(0, dataNbProvinces.getNumberOfColumns());
     dataLosses.removeColumns(0, dataLosses.getNumberOfColumns());
     dataProfessionalism.removeColumns(0, dataProfessionalism.getNumberOfColumns());
+};
+
+let fillListSessions = function () {
+    let i = 1;
+    let listSessions = document.getElementById("listSessions");
+
+    data.sessions.forEach(() => {
+        let option = document.createElement("option");
+        option.text = 'Session ' + i;
+        option.value = i;
+        listSessions.add(option);
+
+        if(i === data.nbSessions) {
+            option.selected = true;
+        }
+        i++;
+    });
 };
 
 let drawSession = function (num) {
