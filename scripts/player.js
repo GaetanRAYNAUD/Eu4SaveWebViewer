@@ -30,7 +30,7 @@ window.onload = function () {
 let init = function () {
     countryPlate = document.getElementById("countryPlate");
 
-    fillListPlayers();
+    fillListPlayers(listPlayers);
 
     let chartTagsTimeLinesDiv = document.getElementById('tagsTimeLines');
     let chartStatsDiv = document.getElementById('chart-Stats');
@@ -134,19 +134,6 @@ let cleanTables = function () {
     dataProfessionalism.removeRows(0, dataProfessionalism.getNumberOfRows());
 };
 
-let fillListPlayers = function () {
-    let i = 0;
-    let listPlayers = document.getElementById("listPlayers");
-
-    data.players.forEach((player) => {
-        let option = document.createElement("option");
-        option.text = player.pseudo;
-        option.value = i;
-        listPlayers.add(option);
-        i++;
-    });
-};
-
 let addTagsTimeLine = function (num) {
     let lastChange = [];
     let numChange = 0;
@@ -163,7 +150,6 @@ let addTagsTimeLine = function (num) {
         }
 
         if (data.players[num].sessions[i].country !== data.players[num].sessions[i - 1].country) {
-            console.log(data.players[num].sessions[i].country);
             lastChange.push(i);
             numChange++;
             dataTagsTimeLines.addRow([data.players[num].sessions[i].country, data.players[num].sessions[i].country, new Date(data.sessions[i - 1].startDate), new Date(data.sessions[i].startDate)]);

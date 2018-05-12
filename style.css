@@ -257,3 +257,68 @@ a:-webkit-any-link {
     margin-right: 430px;
     font-weight: bold;
 }
+
+.countryPlateCompare {
+    border: 2px solid #20303B;
+    border-radius: 6px;
+    background: #3c5a6e;
+    color: white !important;
+    padding: 5px;
+    width: 23%;
+    min-width: 384px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.4%;
+    display: inline-block;
+    position: relative;
+}
+
+.countryPlateCompare hr {
+    margin: 8px 0;
+}
+
+.countryPlateCompare .info {
+    height: 36px;
+}
+
+.countryPlateCompare b {
+    float: left;
+}
+
+.teamSelect {
+    display: block;
+    margin-left: 30px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result .stat {
+    height: 36px;
+}
+
+.result .textImage {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.result .team1 {
+    float: left;
+    top: 0px;
+}
+
+.result .team2 {
+    float: right;
+    top: 0px;
+}
+
+.result img {
+    position: absolute;
+    right: 45%;
+}
+
+.result .resultHeading {
+    top: 8px;
+}

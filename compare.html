@@ -11,7 +11,8 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="scripts/data.js"></script>
-    <script type="text/javascript" src="scripts/general.js"></script>
+    <script type="text/javascript" src="scripts/util.js"></script>
+    <script type="text/javascript" src="scripts/compare.js"></script>
   </head>
   <body>
     <ul class="navbar">
@@ -23,14 +24,30 @@
     </ul>
 
     <div class="title" id="title">Kebab finally gets removed !</div>
+
     <hr>
-    <div class="title">Frise temporelle</div>
-    <div id="sessionsTimeLines" class="sessionsTimeLines"></div>
+
+    <div id="team1" style="text-align: center">
+      <div class="title">Équipe 1</div>
+      <div class="teamSelect">
+        <label for="selectTeam1">Ajouter un joueur</label>
+        <select id="selectTeam1" onchange="addPlayerToTeam(1, this.value)"></select>
+      </div>
+    </div>
+
     <hr>
-    <div class="title">Développement total</div>
-    <div id="totalDev" class="general-chart chart-div"></div>
+
+    <div class="result" id="result">
+    </div>
+
     <hr>
-    <div class="title">Pertes totales</div>
-    <div id="totalLosses" class="general-chart chart-div"></div>
+
+    <div id="team2" style="text-align: center">
+      <div class="title">Équipe 2</div>
+      <div class="teamSelect">
+        <label for="selectTeam2">Ajouter un joueur</label>
+        <select id="selectTeam2" onchange="addPlayerToTeam(2, this.value)"></select>
+      </div>
+    </div>
   </body>
 </html>
