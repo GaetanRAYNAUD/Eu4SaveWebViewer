@@ -2,8 +2,8 @@ window.onload = function () {
     let mapRef = document.getElementById("mapRef");
     let mapImg = document.getElementById("mapImg");
 
-    mapRef.href = './images/sessions/session' + data.nbSessions + '.jpg';
-    mapImg.src = './images/sessions/session' + data.nbSessions + '.jpg';
+    /*mapRef.href = './images/sessions/session' + data.nbSessions + '.jpg';
+    mapImg.src = './images/sessions/session' + data.nbSessions + '.jpg';*/
 };
 
 let addCoutries = function () {
