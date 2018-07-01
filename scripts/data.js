@@ -1,7 +1,7 @@
 const data = 
 {
   "title": "Kebab finally gets removed !",
-  "nbSessions": 13,
+  "nbSessions": 14,
   "sessions": [
     {
       "startDate": "1464-01-02",
@@ -91,6 +91,13 @@ const data =
       "totalLosses": 46342714,
       "totalDevEvol": 6,
       "totalLossesEvol": 6
+    },
+    {
+      "startDate": "1742-01-03",
+      "totalDev": 22639,
+      "totalLosses": 54815570,
+      "totalDevEvol": -5,
+      "totalLossesEvol": 18
     }
   ],
   "players": [
@@ -1253,6 +1260,51 @@ const data =
           "loanRank": 24,
           "professionalismRank": 8,
           "innovativenessRank": 4
+        },
+        {
+          "tag": "FRA",
+          "country": "France",
+          "culture": "Française",
+          "religion": "Protestante",
+          "government": "République révolutionnaire",
+          "rank": 3,
+          "capital": "Île-de-France",
+          "dev": 1632,
+          "devEvol": 1,
+          "income": 410.591,
+          "incomeEvol": -11,
+          "manpower": 417720,
+          "manpowerEvol": 13,
+          "forceLimit": 619,
+          "forceLimitEvol": 47,
+          "nbProv": 58,
+          "nbProvEvol": 0,
+          "losses": 4906789,
+          "lossesEvol": 49,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 55.084,
+          "professionalismEvol": -7.312,
+          "innovativeness": 41.6,
+          "innovativenessEvol": 7.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 2,
+          "incomeRank": 7,
+          "manpowerRank": 1,
+          "forceLimitRank": 1,
+          "nbProvRank": 10,
+          "lossesRank": 2,
+          "loanRank": 22,
+          "professionalismRank": 7,
+          "innovativenessRank": 4
         }
       ]
     },
@@ -1834,6 +1886,51 @@ const data =
           "loanRank": 23,
           "professionalismRank": 1,
           "innovativenessRank": 5
+        },
+        {
+          "tag": "SPA",
+          "country": "Espagne",
+          "culture": "Castillane",
+          "religion": "Catholique",
+          "government": "Monarchie féodale",
+          "rank": 3,
+          "capital": "Madrid",
+          "dev": 1461,
+          "devEvol": 9,
+          "income": 446.485,
+          "incomeEvol": 27,
+          "manpower": 322683,
+          "manpowerEvol": -1,
+          "forceLimit": 433,
+          "forceLimitEvol": 6,
+          "nbProv": 63,
+          "nbProvEvol": -2,
+          "losses": 5052641,
+          "lossesEvol": 24,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 88.089,
+          "professionalismEvol": -8.539,
+          "innovativeness": 24.965,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 5,
+          "incomeRank": 5,
+          "manpowerRank": 4,
+          "forceLimitRank": 2,
+          "nbProvRank": 7,
+          "lossesRank": 1,
+          "loanRank": 21,
+          "professionalismRank": 3,
+          "innovativenessRank": 7
         }
       ]
     },
@@ -2415,6 +2512,51 @@ const data =
           "loanRank": 22,
           "professionalismRank": 25,
           "innovativenessRank": 16
+        },
+        {
+          "tag": "RUM",
+          "country": "Rûm",
+          "culture": "Turque",
+          "religion": "Sunnite",
+          "government": "Régime politique ottoman",
+          "rank": 3,
+          "capital": "Kütahya",
+          "dev": 1398,
+          "devEvol": 13,
+          "income": 509.699,
+          "incomeEvol": 44,
+          "manpower": 353611,
+          "manpowerEvol": 27,
+          "forceLimit": 432,
+          "forceLimitEvol": 16,
+          "nbProv": 60,
+          "nbProvEvol": 6,
+          "losses": 3786751,
+          "lossesEvol": 6,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 25.507,
+          "professionalismEvol": 23.206,
+          "innovativeness": 19.28,
+          "innovativenessEvol": 3.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 6,
+          "incomeRank": 3,
+          "manpowerRank": 3,
+          "forceLimitRank": 3,
+          "nbProvRank": 8,
+          "lossesRank": 5,
+          "loanRank": 20,
+          "professionalismRank": 16,
+          "innovativenessRank": 12
         }
       ]
     },
@@ -2995,6 +3137,51 @@ const data =
           "lossesRank": 15,
           "loanRank": 21,
           "professionalismRank": 15,
+          "innovativenessRank": 10
+        },
+        {
+          "tag": "EGY",
+          "country": "Égypte",
+          "culture": "Française",
+          "religion": "Protestante",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Le Caire",
+          "dev": 734,
+          "devEvol": -1,
+          "income": 248.968,
+          "incomeEvol": -8,
+          "manpower": 203901,
+          "manpowerEvol": 13,
+          "forceLimit": 259,
+          "forceLimitEvol": 25,
+          "nbProv": 51,
+          "nbProvEvol": 1,
+          "losses": 1407859,
+          "lossesEvol": 3,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 37.454,
+          "professionalismEvol": 3.927,
+          "innovativeness": 21.035,
+          "innovativenessEvol": 2.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 18,
+          "incomeRank": 14,
+          "manpowerRank": 10,
+          "forceLimitRank": 8,
+          "nbProvRank": 13,
+          "lossesRank": 17,
+          "loanRank": 19,
+          "professionalismRank": 12,
           "innovativenessRank": 10
         }
       ]
@@ -3577,6 +3764,51 @@ const data =
           "loanRank": 6,
           "professionalismRank": 3,
           "innovativenessRank": 22
+        },
+        {
+          "tag": "HAB",
+          "country": "Autriche",
+          "culture": "Autrichienne",
+          "religion": "Protestante",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Salzbourg",
+          "dev": 1277,
+          "devEvol": 3,
+          "income": 295.063,
+          "incomeEvol": 19,
+          "manpower": 218577,
+          "manpowerEvol": 12,
+          "forceLimit": 315,
+          "forceLimitEvol": -4,
+          "nbProv": 49,
+          "nbProvEvol": 0,
+          "losses": 3982432,
+          "lossesEvol": 19,
+          "loan": 0,
+          "loanEvol": -100,
+          "professionalism": 77.527,
+          "professionalismEvol": -12.390,
+          "innovativeness": 9.655,
+          "innovativenessEvol": 2.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 7,
+          "incomeRank": 12,
+          "manpowerRank": 9,
+          "forceLimitRank": 6,
+          "nbProvRank": 14,
+          "lossesRank": 4,
+          "loanRank": 18,
+          "professionalismRank": 4,
+          "innovativenessRank": 19
         }
       ]
     },
@@ -4157,6 +4389,51 @@ const data =
           "lossesRank": 8,
           "loanRank": 1,
           "professionalismRank": 4,
+          "innovativenessRank": 6
+        },
+        {
+          "tag": "RUS",
+          "country": "Russie",
+          "culture": "Moscovite",
+          "religion": "Orthodoxe",
+          "government": "Tsarat",
+          "rank": 3,
+          "capital": "Iaroslavl",
+          "dev": 1632,
+          "devEvol": 10,
+          "income": 343.02,
+          "incomeEvol": 13,
+          "manpower": 407015,
+          "manpowerEvol": 41,
+          "forceLimit": 390,
+          "forceLimitEvol": 4,
+          "nbProv": 154,
+          "nbProvEvol": 7,
+          "losses": 3461812,
+          "lossesEvol": 54,
+          "loan": 16956,
+          "loanEvol": 12,
+          "professionalism": 100.000,
+          "professionalismEvol": 18.259,
+          "innovativeness": 25.61,
+          "innovativenessEvol": 2.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 1,
+          "incomeRank": 9,
+          "manpowerRank": 2,
+          "forceLimitRank": 5,
+          "nbProvRank": 1,
+          "lossesRank": 6,
+          "loanRank": 1,
+          "professionalismRank": 2,
           "innovativenessRank": 6
         }
       ]
@@ -5230,6 +5507,51 @@ const data =
           "loanRank": 5,
           "professionalismRank": 20,
           "innovativenessRank": 8
+        },
+        {
+          "tag": "KAZ",
+          "country": "Kazan",
+          "culture": "Kazanaise",
+          "religion": "Sunnite",
+          "government": "Monarchie administrative",
+          "rank": 3,
+          "capital": "Bouzoulouk",
+          "dev": 1464,
+          "devEvol": 19,
+          "income": 348.508,
+          "incomeEvol": 51,
+          "manpower": 267836,
+          "manpowerEvol": 60,
+          "forceLimit": 238,
+          "forceLimitEvol": 43,
+          "nbProv": 103,
+          "nbProvEvol": 10,
+          "losses": 3445774,
+          "lossesEvol": 51,
+          "loan": 10149,
+          "loanEvol": 203,
+          "professionalism": 32.809,
+          "professionalismEvol": 12.445,
+          "innovativeness": 26.305,
+          "innovativenessEvol": 3.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 4,
+          "incomeRank": 8,
+          "manpowerRank": 6,
+          "forceLimitRank": 9,
+          "nbProvRank": 2,
+          "lossesRank": 7,
+          "loanRank": 3,
+          "professionalismRank": 14,
+          "innovativenessRank": 5
         }
       ]
     },
@@ -6032,6 +6354,51 @@ const data =
           "loanRank": 20,
           "professionalismRank": 14,
           "innovativenessRank": 20
+        },
+        {
+          "tag": "PER",
+          "country": "Perse",
+          "culture": "Khorassanienne",
+          "religion": "Chiite",
+          "government": "Théocratie féodale",
+          "rank": 3,
+          "capital": "Téhéran",
+          "dev": 848,
+          "devEvol": 9,
+          "income": 312.566,
+          "incomeEvol": 15,
+          "manpower": 177551,
+          "manpowerEvol": 18,
+          "forceLimit": 234,
+          "forceLimitEvol": 11,
+          "nbProv": 58,
+          "nbProvEvol": 4,
+          "losses": 1509577,
+          "lossesEvol": 12,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 47.638,
+          "professionalismEvol": 13.226,
+          "innovativeness": 15.31,
+          "innovativenessEvol": 2.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 15,
+          "incomeRank": 10,
+          "manpowerRank": 12,
+          "forceLimitRank": 10,
+          "nbProvRank": 9,
+          "lossesRank": 16,
+          "loanRank": 17,
+          "professionalismRank": 8,
+          "innovativenessRank": 17
         }
       ]
     },
@@ -7059,6 +7426,51 @@ const data =
           "loanRank": 19,
           "professionalismRank": 6,
           "innovativenessRank": 3
+        },
+        {
+          "tag": "NED",
+          "country": "Pays-Bas",
+          "culture": "Flamande",
+          "religion": "Réformée",
+          "government": "Provinces-Unies",
+          "rank": 3,
+          "capital": "Bruxelles",
+          "dev": 1054,
+          "devEvol": 6,
+          "income": 597.704,
+          "incomeEvol": 4,
+          "manpower": 174942,
+          "manpowerEvol": 83,
+          "forceLimit": 230,
+          "forceLimitEvol": 3,
+          "nbProv": 39,
+          "nbProvEvol": 0,
+          "losses": 2803726,
+          "lossesEvol": 55,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 44.006,
+          "professionalismEvol": -26.831,
+          "innovativeness": 46.115,
+          "innovativenessEvol": 5.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 9,
+          "incomeRank": 1,
+          "manpowerRank": 13,
+          "forceLimitRank": 11,
+          "nbProvRank": 15,
+          "lossesRank": 9,
+          "loanRank": 16,
+          "professionalismRank": 10,
+          "innovativenessRank": 3
         }
       ]
     },
@@ -7089,7 +7501,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 13,
           "incomeRank": 13,
@@ -7134,7 +7546,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 5,
           "incomeRank": 14,
@@ -7179,7 +7591,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 12,
           "incomeRank": 14,
@@ -7224,7 +7636,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 15,
           "incomeRank": 16,
@@ -7269,7 +7681,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 14,
           "incomeRank": 23,
@@ -7314,7 +7726,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 10,
           "incomeRank": 15,
@@ -7359,7 +7771,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 12,
           "incomeRank": 18,
@@ -7404,7 +7816,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 18,
           "incomeRank": 19,
@@ -7449,7 +7861,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 20,
           "incomeRank": 21,
@@ -7494,7 +7906,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 22,
           "incomeRank": 23,
@@ -7539,7 +7951,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 26,
           "incomeRank": 24,
@@ -7584,7 +7996,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 22,
           "incomeRank": 19,
@@ -7629,7 +8041,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 21,
           "incomeRank": 21,
@@ -7640,6 +8052,51 @@ const data =
           "loanRank": 18,
           "professionalismRank": 11,
           "innovativenessRank": 19
+        },
+        {
+          "tag": "ETH",
+          "country": "Éthiopie",
+          "culture": "Amharique",
+          "religion": "Copte",
+          "government": "Monarchie administrative",
+          "rank": 3,
+          "capital": "Gondar",
+          "dev": 693,
+          "devEvol": 13,
+          "income": 121.699,
+          "incomeEvol": -8,
+          "manpower": 66280,
+          "manpowerEvol": 17,
+          "forceLimit": 122,
+          "forceLimitEvol": 7,
+          "nbProv": 75,
+          "nbProvEvol": 0,
+          "losses": 1097657,
+          "lossesEvol": 51,
+          "loan": 2741,
+          "loanEvol": 0,
+          "professionalism": 28.094,
+          "professionalismEvol": -22.416,
+          "innovativeness": 16.425,
+          "innovativenessEvol": 2.670,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 19,
+          "incomeRank": 20,
+          "manpowerRank": 21,
+          "forceLimitRank": 20,
+          "nbProvRank": 4,
+          "lossesRank": 21,
+          "loanRank": 5,
+          "professionalismRank": 15,
+          "innovativenessRank": 15
         }
       ]
     },
@@ -8221,6 +8678,51 @@ const data =
           "loanRank": 7,
           "professionalismRank": 5,
           "innovativenessRank": 7
+        },
+        {
+          "tag": "SWI",
+          "country": "Suisse",
+          "culture": "Suisse",
+          "religion": "Protestante",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Brisgau",
+          "dev": 863,
+          "devEvol": 6,
+          "income": 217.663,
+          "incomeEvol": 27,
+          "manpower": 181268,
+          "manpowerEvol": 31,
+          "forceLimit": 195,
+          "forceLimitEvol": 15,
+          "nbProv": 27,
+          "nbProvEvol": 0,
+          "losses": 1611022,
+          "lossesEvol": 53,
+          "loan": 491,
+          "loanEvol": -63,
+          "professionalism": 73.291,
+          "professionalismEvol": -3.360,
+          "innovativeness": 24.51,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 14,
+          "incomeRank": 15,
+          "manpowerRank": 11,
+          "forceLimitRank": 13,
+          "nbProvRank": 20,
+          "lossesRank": 15,
+          "loanRank": 7,
+          "professionalismRank": 6,
+          "innovativenessRank": 8
         }
       ]
     },
@@ -8802,6 +9304,51 @@ const data =
           "loanRank": 17,
           "professionalismRank": 10,
           "innovativenessRank": 1
+        },
+        {
+          "tag": "GBR",
+          "country": "Grande-Bretagne",
+          "culture": "Anglaise",
+          "religion": "Réformée",
+          "government": "République constitutionnelle",
+          "rank": 3,
+          "capital": "Chester",
+          "dev": 1474,
+          "devEvol": 0,
+          "income": 421.398,
+          "incomeEvol": -32,
+          "manpower": 246720,
+          "manpowerEvol": 0,
+          "forceLimit": 406,
+          "forceLimitEvol": -4,
+          "nbProv": 74,
+          "nbProvEvol": -1,
+          "losses": 4211417,
+          "lossesEvol": 74,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 35.037,
+          "professionalismEvol": -17.685,
+          "innovativeness": 52.66,
+          "innovativenessEvol": 4.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 3,
+          "incomeRank": 6,
+          "manpowerRank": 7,
+          "forceLimitRank": 4,
+          "nbProvRank": 5,
+          "lossesRank": 3,
+          "loanRank": 15,
+          "professionalismRank": 13,
+          "innovativenessRank": 1
         }
       ]
     },
@@ -8832,7 +9379,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 23,
           "incomeRank": 24,
@@ -8877,7 +9424,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 31,
           "incomeRank": 35,
@@ -8922,7 +9469,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 34,
           "incomeRank": 35,
@@ -8967,7 +9514,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 26,
           "incomeRank": 35,
@@ -9012,7 +9559,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 27,
           "incomeRank": 33,
@@ -9057,7 +9604,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 20,
           "incomeRank": 28,
@@ -9102,7 +9649,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 21,
           "incomeRank": 28,
@@ -9147,7 +9694,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 23,
           "incomeRank": 27,
@@ -9192,7 +9739,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 22,
           "incomeRank": 27,
@@ -9237,7 +9784,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 17,
           "incomeRank": 27,
@@ -9282,7 +9829,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 20,
           "incomeRank": 27,
@@ -9327,7 +9874,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 17,
           "incomeRank": 23,
@@ -9372,7 +9919,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 18,
           "incomeRank": 23,
@@ -9383,6 +9930,51 @@ const data =
           "loanRank": 16,
           "professionalismRank": 21,
           "innovativenessRank": 23
+        },
+        {
+          "tag": "TUN",
+          "country": "Tunis",
+          "culture": "Tunisienne",
+          "religion": "Sunnite",
+          "government": "Iqtâ",
+          "rank": 2,
+          "capital": "Tunis",
+          "dev": 921,
+          "devEvol": 22,
+          "income": 106.656,
+          "incomeEvol": 7,
+          "manpower": 106917,
+          "manpowerEvol": 13,
+          "forceLimit": 153,
+          "forceLimitEvol": 5,
+          "nbProv": 89,
+          "nbProvEvol": 11,
+          "losses": 1319787,
+          "lossesEvol": 28,
+          "loan": 1575,
+          "loanEvol": 0,
+          "professionalism": 15.955,
+          "professionalismEvol": -2.798,
+          "innovativeness": 6.395,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 10,
+          "incomeRank": 22,
+          "manpowerRank": 18,
+          "forceLimitRank": 19,
+          "nbProvRank": 3,
+          "lossesRank": 18,
+          "loanRank": 6,
+          "professionalismRank": 18,
+          "innovativenessRank": 20
         }
       ]
     },
@@ -10500,6 +11092,51 @@ const data =
           "loanRank": 15,
           "professionalismRank": 22,
           "innovativenessRank": 2
+        },
+        {
+          "tag": "POR",
+          "country": "Portugal",
+          "culture": "Portugaise",
+          "religion": "Réformée",
+          "government": "Monarchie féodale",
+          "rank": 2,
+          "capital": "Lisbonne",
+          "dev": 918,
+          "devEvol": 8,
+          "income": 517.738,
+          "incomeEvol": 68,
+          "manpower": 102355,
+          "manpowerEvol": 37,
+          "forceLimit": 196,
+          "forceLimitEvol": 5,
+          "nbProv": 63,
+          "nbProvEvol": 1,
+          "losses": 2038390,
+          "lossesEvol": 61,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 0.934,
+          "professionalismEvol": -13.840,
+          "innovativeness": 48.075,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 11,
+          "incomeRank": 2,
+          "manpowerRank": 19,
+          "forceLimitRank": 12,
+          "nbProvRank": 6,
+          "lossesRank": 12,
+          "loanRank": 14,
+          "professionalismRank": 22,
+          "innovativenessRank": 2
         }
       ]
     },
@@ -11080,6 +11717,51 @@ const data =
           "lossesRank": 11,
           "loanRank": 14,
           "professionalismRank": 2,
+          "innovativenessRank": 11
+        },
+        {
+          "tag": "HAN",
+          "country": "Hanovre",
+          "culture": "Danoise",
+          "religion": "Réformée",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Sjælland",
+          "dev": 904,
+          "devEvol": 11,
+          "income": 448.3,
+          "incomeEvol": 57,
+          "manpower": 162996,
+          "manpowerEvol": 67,
+          "forceLimit": 177,
+          "forceLimitEvol": 6,
+          "nbProv": 29,
+          "nbProvEvol": 0,
+          "losses": 2086765,
+          "lossesEvol": 16,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 100.000,
+          "professionalismEvol": 8.380,
+          "innovativeness": 19.53,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 13,
+          "incomeRank": 4,
+          "manpowerRank": 15,
+          "forceLimitRank": 16,
+          "nbProvRank": 18,
+          "lossesRank": 10,
+          "loanRank": 13,
+          "professionalismRank": 1,
           "innovativenessRank": 11
         }
       ]
@@ -11837,6 +12519,51 @@ const data =
           "lossesRank": 19,
           "loanRank": 13,
           "professionalismRank": 13,
+          "innovativenessRank": 9
+        },
+        {
+          "tag": "SWE",
+          "country": "Suède",
+          "culture": "Suédoise",
+          "religion": "Protestante",
+          "government": "Monarchie féodale",
+          "rank": 2,
+          "capital": "Stockholm",
+          "dev": 674,
+          "devEvol": 26,
+          "income": 156.234,
+          "incomeEvol": 33,
+          "manpower": 141326,
+          "manpowerEvol": 102,
+          "forceLimit": 157,
+          "forceLimitEvol": 27,
+          "nbProv": 36,
+          "nbProvEvol": 0,
+          "losses": 1237007,
+          "lossesEvol": 15,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 45.798,
+          "professionalismEvol": 10.138,
+          "innovativeness": 23.565,
+          "innovativenessEvol": 3.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 20,
+          "incomeRank": 18,
+          "manpowerRank": 17,
+          "forceLimitRank": 18,
+          "nbProvRank": 16,
+          "lossesRank": 20,
+          "loanRank": 12,
+          "professionalismRank": 9,
           "innovativenessRank": 9
         }
       ]
@@ -12895,7 +13622,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 34,
           "incomeRank": 26,
@@ -12940,7 +13667,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 27,
           "incomeRank": 34,
@@ -12985,7 +13712,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 14,
           "incomeRank": 30,
@@ -13030,7 +13757,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 16,
           "incomeRank": 22,
@@ -13075,7 +13802,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 23,
           "incomeRank": 32,
@@ -13120,7 +13847,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 28,
           "incomeRank": 32,
@@ -13165,7 +13892,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 30,
           "incomeRank": 31,
@@ -13210,7 +13937,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 30,
           "incomeRank": 30,
@@ -13255,7 +13982,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 30,
           "incomeRank": 30,
@@ -13300,7 +14027,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 31,
           "incomeRank": 30,
@@ -13345,7 +14072,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 30,
           "incomeRank": 28,
@@ -13390,7 +14117,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 26,
           "incomeRank": 25,
@@ -13435,7 +14162,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 24,
           "incomeRank": 24,
@@ -13446,6 +14173,51 @@ const data =
           "loanRank": 12,
           "professionalismRank": 23,
           "innovativenessRank": 25
+        },
+        {
+          "tag": "SRV",
+          "country": "Shîrvân",
+          "culture": "Azérie",
+          "religion": "Chiite",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Chirvan",
+          "dev": 375,
+          "devEvol": 1,
+          "income": 111.723,
+          "incomeEvol": 32,
+          "manpower": 53341,
+          "manpowerEvol": 4,
+          "forceLimit": 92,
+          "forceLimitEvol": 2,
+          "nbProv": 28,
+          "nbProvEvol": 0,
+          "losses": 718237,
+          "lossesEvol": 0,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 12.796,
+          "professionalismEvol": -1.004,
+          "innovativeness": 1.295,
+          "innovativenessEvol": -0.450,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 22,
+          "incomeRank": 21,
+          "manpowerRank": 22,
+          "forceLimitRank": 22,
+          "nbProvRank": 19,
+          "lossesRank": 22,
+          "loanRank": 11,
+          "professionalismRank": 19,
+          "innovativenessRank": 22
         }
       ]
     },
@@ -14248,6 +15020,51 @@ const data =
           "loanRank": 2,
           "professionalismRank": 19,
           "innovativenessRank": 17
+        },
+        {
+          "tag": "HUN",
+          "country": "Hongrie",
+          "culture": "Hongroise",
+          "religion": "Protestante",
+          "government": "Monarchie administrative",
+          "rank": 3,
+          "capital": "Torontal",
+          "dev": 1202,
+          "devEvol": -4,
+          "income": 265.206,
+          "incomeEvol": 16,
+          "manpower": 315907,
+          "manpowerEvol": 16,
+          "forceLimit": 271,
+          "forceLimitEvol": 0,
+          "nbProv": 52,
+          "nbProvEvol": -8,
+          "losses": 3128293,
+          "lossesEvol": 72,
+          "loan": 11550,
+          "loanEvol": 17,
+          "professionalism": 2.008,
+          "professionalismEvol": -20.416,
+          "innovativeness": 16.395,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 8,
+          "incomeRank": 13,
+          "manpowerRank": 5,
+          "forceLimitRank": 7,
+          "nbProvRank": 12,
+          "lossesRank": 8,
+          "loanRank": 2,
+          "professionalismRank": 21,
+          "innovativenessRank": 16
         }
       ]
     },
@@ -15050,6 +15867,51 @@ const data =
           "loanRank": 4,
           "professionalismRank": 18,
           "innovativenessRank": 13
+        },
+        {
+          "tag": "MSY",
+          "country": "Musha\u0027sha\u0027îyâ",
+          "culture": "Machrékienne",
+          "religion": "Chiite",
+          "government": "Théocratie féodale",
+          "rank": 2,
+          "capital": "Ahvaz",
+          "dev": 799,
+          "devEvol": 4,
+          "income": 199.019,
+          "incomeEvol": -14,
+          "manpower": 95991,
+          "manpowerEvol": -6,
+          "forceLimit": 185,
+          "forceLimitEvol": 3,
+          "nbProv": 55,
+          "nbProvEvol": 0,
+          "losses": 1726413,
+          "lossesEvol": 2,
+          "loan": 0,
+          "loanEvol": -100,
+          "professionalism": 23.724,
+          "professionalismEvol": -2.390,
+          "innovativeness": 18.19,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 17,
+          "incomeRank": 16,
+          "manpowerRank": 20,
+          "forceLimitRank": 15,
+          "nbProvRank": 11,
+          "lossesRank": 14,
+          "loanRank": 10,
+          "professionalismRank": 17,
+          "innovativenessRank": 14
         }
       ]
     },
@@ -16077,6 +16939,51 @@ const data =
           "loanRank": 11,
           "professionalismRank": 7,
           "innovativenessRank": 24
+        },
+        {
+          "tag": "TUS",
+          "country": "Toscane",
+          "culture": "Lombarde",
+          "religion": "Protestante",
+          "government": "Monarchie féodale",
+          "rank": 2,
+          "capital": "Milan",
+          "dev": 826,
+          "devEvol": 11,
+          "income": 299.712,
+          "incomeEvol": 30,
+          "manpower": 221844,
+          "manpowerEvol": 13,
+          "forceLimit": 189,
+          "forceLimitEvol": 7,
+          "nbProv": 24,
+          "nbProvEvol": 1,
+          "losses": 2084507,
+          "lossesEvol": 25,
+          "loan": 0,
+          "loanEvol": 0,
+          "professionalism": 75.964,
+          "professionalismEvol": 10.940,
+          "innovativeness": 5.025,
+          "innovativenessEvol": 1.020,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 16,
+          "incomeRank": 11,
+          "manpowerRank": 8,
+          "forceLimitRank": 14,
+          "nbProvRank": 21,
+          "lossesRank": 11,
+          "loanRank": 9,
+          "professionalismRank": 5,
+          "innovativenessRank": 21
         }
       ]
     },
@@ -16598,7 +17505,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 33,
           "incomeRank": 33,
@@ -16643,7 +17550,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 35,
           "incomeRank": 26,
@@ -16688,7 +17595,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 30,
           "incomeRank": 31,
@@ -16733,7 +17640,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 33,
           "incomeRank": 33,
@@ -16778,7 +17685,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 28,
           "incomeRank": 26,
@@ -16823,7 +17730,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 29,
           "incomeRank": 24,
@@ -16868,7 +17775,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 28,
           "incomeRank": 26,
@@ -16913,7 +17820,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 27,
           "incomeRank": 23,
@@ -16958,7 +17865,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 27,
           "incomeRank": 25,
@@ -17003,7 +17910,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 26,
           "incomeRank": 25,
@@ -17048,7 +17955,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 21,
           "incomeRank": 22,
@@ -17093,7 +18000,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 14,
           "incomeRank": 20,
@@ -17138,7 +18045,7 @@ const data =
             "printingPress": true,
             "globalTrade": true,
             "manufactories": true,
-            "enlightenment": false
+            "enlightenment": true
           },
           "devRank": 11,
           "incomeRank": 20,
@@ -17149,6 +18056,51 @@ const data =
           "loanRank": 3,
           "professionalismRank": 24,
           "innovativenessRank": 21
+        },
+        {
+          "tag": "PRU",
+          "country": "Prusse",
+          "culture": "Saxonne",
+          "religion": "Protestante",
+          "government": "Monarchie prussienne",
+          "rank": 2,
+          "capital": "Brandebourg",
+          "dev": 912,
+          "devEvol": 1,
+          "income": 198.959,
+          "incomeEvol": 35,
+          "manpower": 166463,
+          "manpowerEvol": 51,
+          "forceLimit": 163,
+          "forceLimitEvol": 6,
+          "nbProv": 35,
+          "nbProvEvol": -1,
+          "losses": 1928303,
+          "lossesEvol": 19,
+          "loan": 7723,
+          "loanEvol": 38,
+          "professionalism": 11.673,
+          "professionalismEvol": -0.287,
+          "innovativeness": 12.9,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 12,
+          "incomeRank": 17,
+          "manpowerRank": 14,
+          "forceLimitRank": 17,
+          "nbProvRank": 17,
+          "lossesRank": 13,
+          "loanRank": 4,
+          "professionalismRank": 20,
+          "innovativenessRank": 18
         }
       ]
     },
@@ -18311,6 +19263,51 @@ const data =
           "loanRank": 9,
           "professionalismRank": 16,
           "innovativenessRank": 12
+        },
+        {
+          "tag": "NAP",
+          "country": "Naples",
+          "culture": "Napolitaine",
+          "religion": "Protestante",
+          "government": "Monarchie administrative",
+          "rank": 2,
+          "capital": "Naples",
+          "dev": 578,
+          "devEvol": 6,
+          "income": 131.322,
+          "incomeEvol": -24,
+          "manpower": 150070,
+          "manpowerEvol": 160,
+          "forceLimit": 115,
+          "forceLimitEvol": 8,
+          "nbProv": 16,
+          "nbProvEvol": 0,
+          "losses": 1270411,
+          "lossesEvol": 13,
+          "loan": 326,
+          "loanEvol": 0,
+          "professionalism": 40.308,
+          "professionalismEvol": 7.685,
+          "innovativeness": 18.55,
+          "innovativenessEvol": 1.265,
+          "institutions": {
+            "feudalism": true,
+            "renaissance": true,
+            "colonialism": true,
+            "printingPress": true,
+            "globalTrade": true,
+            "manufactories": true,
+            "enlightenment": true
+          },
+          "devRank": 21,
+          "incomeRank": 19,
+          "manpowerRank": 16,
+          "forceLimitRank": 21,
+          "nbProvRank": 22,
+          "lossesRank": 19,
+          "loanRank": 8,
+          "professionalismRank": 11,
+          "innovativenessRank": 13
         }
       ]
     },
