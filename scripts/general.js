@@ -9,6 +9,7 @@ let generalOptions = {
         bottom: '30'
     },
     vAxis: {
+        minValue: 0,
         format: 'short',
         minorGridlines: {
             'count': 4
