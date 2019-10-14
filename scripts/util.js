@@ -57,6 +57,7 @@ let options = {
         'height': '85%'
     },
     'vAxis': {
+        minValue: 0,
         'format': 'decimal',
         'minorGridlines': {
             'count': 4

@@ -156,6 +156,15 @@ a:-webkit-any-link {
     border-radius: 5px;
 }
 
+.infoTextIndex {
+    color: green;
+    font-weight: bold;
+    background: #E9E9E9;
+    padding: 4px;
+    border-radius: 5px;
+    top: -5px;
+}
+
 .deadCountry {
     background: rgba(60, 90, 110, 0.3);
     border: 2px solid rgba(32, 48, 59, 0.3);;
